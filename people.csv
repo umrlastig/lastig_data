@@ -1,5 +1,17 @@
 firstname;lastname;team;statut;status;webpage;HAL;start_date;member;photo
-Guillaume;Touya;GEOVIS;DR IGN - Directeur adjoint du laboratoire;Senior researcher - vice-head of the lab;gtouya_homepage;todo;10/09/2004;true;https://raw.githubusercontent.com/umrlastig/gtouya_webpage/gh-pages/img/avatar.png
+Guillaume;Touya;GEOVIS;DR IGN - Directeur adjoint du laboratoire;Senior researcher - vice-head of the lab;gtouya_homepage;guillaume-touya;10/09/2004;true;https://raw.githubusercontent.com/umrlastig/gtouya_webpage/gh-pages/img/avatar.png
 Sidonie;Christophe;GEOVIS;DR - Responsable de l'équipe GEOVIS;Senior researcher - head of GEOVIS team;schristophe_homepage;todo;10/09/2004;true;http://recherche.ign.fr/labos/cogit/img/christophe.jpg
 Quy Thy;Truong;MEIG;Doctorante;PhD student;qttruong_homepage;todo;02/11/2016;true;http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
 Sébastien;Biniek;GEOVIS;Doctorant;PhD student;sbiniek_homepage;todo;01/12/2016;true;http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
+Lâmân;Lelégard;GEOVIS;Chargé d'études et de recherche;Research engineer;llelegard_homepage;todo;01/09/2007;true;http://recherche.ign.fr/labos/matis/img/lelegard.jpg
+Mathieu;Brédif;GEOVIS;CR IGN;Senior researcher;mbredif_homepage;todo;01/09/2005;true;http://recherche.ign.fr/labos/matis/img/bredif.jpg
+Catherine;Dominguès;MEIG;CR IGN;Senior researcher;cdomingues_homepage;todo;true;http://recherche.ign.fr/labos/cogit/img/domingues.jpg
+Mattia;Bunel;MEIG;Doctorant;PhD student;mbunel_homepage;todo;01/10/2017;true;http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
+Nathan;Piasco;ACTE;Doctorant;PhD student;np_homepage;todo;01/10/2016;true;https://raw.githubusercontent.com/umrlastig/np_webpage/gh-pages/img/piasco.jpg
+Laurence;Jolivet;STRUDEL;CR IGN;Senior researcher;ljolivet_homepage;todo;01/10/2006;true;http://recherche.ign.fr/labos/cogit/img/jolivet.jpg
+Stéphane;Guinard;ACTE;Doctorant;PhD student;sguinard_homepage;todo;01/10/2017;true;https://raw.githubusercontent.com/umrlastig/np_webpage/gh-pages/img/guinard.jpg
+Paul;Chapron;STRUDEL;CR;Senior Researcher;pchapron_homepage;todo;01/12/2017;true;https://raw.githubusercontent.com/umrlastig/np_webpage/gh-pages/img/photo_paulchapron.jpg
+Oussama;Ennafii;STRUDEL;Doctorant;PhD student;oennafii_homepage;todo;01/10/2016;true;https://raw.githubusercontent.com/umrlastig/np_webpage/gh-pages/img/ennafii.jpg
+Arnaud;Le Bris;STRUDEL;CR;Senior Researcher;alebris_homepage;todo;01/10/2005;true;http://recherche.ign.fr/labos/matis/img/le_bris.jpg
+Arnaud;Le Guilcher;MEIG;CR - Responsable de l'équipe MEIG;Senior Researcher - head of MEIG team;aleguilcher_homepage;todo;01/10/2013;true;https://raw.githubusercontent.com/umrlastig/np_webpage/gh-pages/img/aleguilcher.png
+Imran;Lokhat;GEOVIS;Développeur;IT scientist;ilokhat_homepage;todo;01/10/2014;true;https://raw.githubusercontent.com/umrlastig/np_webpage/gh-pages/img/generic-avatar.jpg
