@@ -1,12 +1,14 @@
 firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo
-Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,
-Charly,Bernard,STRUDEL,Ingénieur,Engineer,/charly-bernard,todo,01/10/2019,,true,
+Nathalie,Abadie,STRUDEL,CR IGN, researcher,/nathalie-abadie,todo,01/10/2005,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
+Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
+Charly,Bernard,STRUDEL,Ingénieur,Engineer,/charly-bernard,todo,01/10/2019,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
 Sébastien,Biniek,GEOVIS,Doctorant,PhD student,/sebastien-biniek,todo,01/12/2016,,true,/geovis/faces/biniek.jpg
 Mathieu,Brédif,GEOVIS,CR IGN,Senior researcher,/mathieu-bredif,mathieu-bredif,01/09/2005,,true,/geovis/faces/bredif.jpg
 Mattia,Bunel,MEIG,Doctorant,PhD student,/mbunel_homepage,todo,01/10/2017,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
 Paul,Chapron,STRUDEL,CR,Senior Researcher,/paul-chapron,todo,01/12/2017,,true,/paul-chapron/img/photo_paulchapron.jpg
-Sidonie,Christophe,GEOVIS,DR2 MTES - Responsable de l'équipe GEOVIS,Senior researcher - head of GEOVIS team,/schristophe_homepage,todo,10/09/2004,,true,/geovis/faces/christophe.jpg
+Sidonie,Christophe,GEOVIS,DR2 MTES - Responsable de l'équipe GEOVIS,Senior researcher - head of GEOVIS team,/schristophe_homepage,todo,01/09/2006,,true,/geovis/faces/christophe.jpg
+Azelle,Courtial,GEOVIS,Doctorante,PhD student,/azelle-courtial,todo,01/10/2019,,true,/azelle-courtial/img/AzelleCourtialCarr%C3%A9e.jpg
 Alexandre,Devaux,GEOVIS,Chargé d'études et de recherche,Research engineer,/adevaux_homepage,todo,01/07/2008,,true,/geovis/faces/devaux.jpg
 Catherine,Dominguès,MEIG,CR IGN,Senior researcher,/cdomingues_homepage,todo,01/01/2005,,true,http://recherche.ign.fr/labos/cogit/img/domingues.jpg
 Oussama,Ennafii,STRUDEL,Doctorant,PhD student,/oennafii_homepage,todo,01/10/2016,,true,/oennafii_homepage/img/ennafii.jpg
@@ -24,10 +26,11 @@ Imran,Lokhat,GEOVIS,Développeur,IT scientist,/imran-lokhat,todo,01/10/2014,,tru
 Clément,Mallet,STRUDEL,DR IGN - Responsable de l'équipe STRUDEL,Senior researcher - head of STRUDEL team,/clement-mallet,todo,01/10/2005,,true,http://recherche.ign.fr/labos/matis/img/mallet.jpg
 Ana-Maria,Olteanu-Raimond,MEIG,CR MTES,Senior researcher,/Ana-Maria-Raimond-homepage,todo,01/01/2013,,true,/Ana-Maria-Raimond-homepage/img/raimond.png
 Evelyn,Paiz,GEOVIS,Doctorante,PhD student,/evelyn-paiz,evelyn-paiz,01/10/2018,,true,/geovis/faces/paiz-reyes.jpg
+Julien,Perret,STRUDEL,DR MTES,Senior researcher,/julien-perret,01/10/2007,,true,/julien-perret/img/julien.jpg
 Nathan,Piasco,ACTE,Doctorant,PhD student,/np_homepage,todo,01/10/2016,,true,/np_homepage/img/piasco.jpg
 Martyna,Poreba,ACTE,CR MTES,Researcher,/martyna-poreba,todo,01/12/206,,true,http://recherche.ign.fr/labos/matis/img/poreba.jpg
 Ewelina,Rupnik,ACTE,CR,Researcher,/ewelina-rupnik,todo,01/11/2017,,true,/ewelina-rupnik/img/er.png
 Qasem,Safariallahkheili,GEOVIS,Doctorant,PhD student,/Safariallahkheili_Homepage,todo,01/12/2018,,true,/geovis/faces/safariallahkheili.jpg
 Guillaume,Touya,GEOVIS,DR IGN - Directeur adjoint du laboratoire,Senior researcher - vice-head of the lab,/guillaume-touya,guillaume-touya,10/09/2004,,true,/geovis/faces/touya.jpg
 Quy Thy,Truong,MEIG,Doctorante,PhD student,/qttruong_homepage,todo,02/11/2016,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
-Mehdi,Zrhal,MEIG,Doctorant,PhD student,/Mehdi-Zrhal, todo, 01/09/2019,,true,
+Mehdi,Zrhal,MEIG,Doctorant,PhD student,/Mehdi-Zrhal, todo, 01/09/2019,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
