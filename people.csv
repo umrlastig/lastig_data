@@ -1,5 +1,5 @@
 firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo
-Nathalie,Abadie,STRUDEL,CR IGN, Researcher,/nathalie-abadie,todo,01/10/2005,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
+Nathalie,Abadie,STRUDEL,CR IGN, Researcher,/nathalie-abadie,todo,01/10/2005,,true,/nathalie-abadie/img/abadie.png
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
 Charly,Bernard,STRUDEL,Ingénieur,Engineer,/charly-bernard,todo,01/10/2019,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
@@ -29,10 +29,13 @@ Ana-Maria,Olteanu-Raimond,MEIG,CR MTES,Senior researcher,/Ana-Maria-Raimond-home
 Evelyn,Paiz,GEOVIS,Doctorante,PhD student,/evelyn-paiz,evelyn-paiz,01/10/2018,,true,/geovis/faces/paiz-reyes.jpg
 Julien,Perret,STRUDEL,DR2 MTES,Senior researcher,/julien-perret,julienperret,01/10/2007,,true,/julien-perret/img/julien.jpg
 Nathan,Piasco,ACTE,Doctorant,PhD student,/np_homepage,todo,01/10/2016,,true,/np_homepage/img/piasco.jpg
-Martyna,Poreba,ACTE,CR MTES,Researcher,/martyna-poreba,todo,01/12/206,,true,http://recherche.ign.fr/labos/matis/img/poreba.jpg
+Martyna,Poreba,ACTE,CR MTES,Researcher,/martyna-poreba,todo,01/12/2016,,true,http://recherche.ign.fr/labos/matis/img/poreba.jpg
 Ewelina,Rupnik,ACTE,CR MTES,Researcher,/ewelina-rupnik,todo,01/11/2017,,true,/ewelina-rupnik/img/er.png
 Qasem,Safariallahkheili,GEOVIS,Doctorant,PhD student,/Safariallahkheili_Homepage,todo,01/12/2018,,true,/geovis/faces/safariallahkheili.jpg
 Guillaume,Touya,GEOVIS,DR IGN - Directeur adjoint du laboratoire,Senior researcher - vice-head of the lab,/guillaume-touya,guillaume-touya,10/09/2004,,true,/geovis/faces/touya.jpg
 Quy Thy,Truong,MEIG,Doctorante,PhD student,/qttruong_homepage,todo,02/11/2016,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
 Bruno,Vallet,ACTE,DR IGN - Responsable de l'équipe ACTE,Senior researcher - head of ACTE team,/bruno-vallet,todo,,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
 Mehdi,Zrhal,MEIG,Doctorant,PhD student,/Mehdi-Zrhal, todo, 01/09/2019,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
+Yizi,Chen,STRUDEL,Doctorant,PhD sutdent,,todo,20/12/2019,,true,http://recherche.ign.fr/labos/cogit/img/anonyme.jpg
+Oussama Ennafii,STRUDEL,Doctorant,PhD student,/oennafii_homepage,todo,01/09/2016,false,/oennafii_homepage/img/ennafii.jpg
+
