@@ -1,5 +1,5 @@
 firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo
-Nathalie,Abadie,STRUDEL,CR IGN, Researcher,/nathalie-abadie,todo,01/10/2005,,true,/nathalie-abadie/img/abadie.png
+Nathalie,Abadie,STRUDEL,CR IGN, Researcher,/nathalie-abadie,nathalie-abadie,01/10/2005,,true,/nathalie-abadie/img/abadie.png
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,/lastig_data/img/anonyme.jpg
 Charly,Bernard,STRUDEL,Ingénieur,Engineer,/charly-bernard,todo,01/10/2019,,true,/lastig_data/img/anonyme.jpg
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,/lastig_data/img/anonyme.jpg
@@ -10,7 +10,7 @@ Mathieu,Brédif,GEOVIS,CR IGN,Senior researcher,/mathieu-bredif,mathieu-bredif,0
 Bénédicte,Bucher,MEIG,Directrice de recherche IGN,Senior researcher,/benedicte-bucher,,,,true,/benedicte-bucher/img/Bucher.jpg
 Mattia,Bunel,MEIG,Doctorant,PhD student,/mattia-bunel,todo,01/10/2017,,true,/lastig_data/img/anonyme.jpg
 Laurent,Caraffa,ACTE,CR MTES,Researcher,/laurent-caraffa,todo,2014,,true,/laurent-caraffa/img/laurent.jpg
-Paul,Chapron,STRUDEL,CR MTES,Researcher,/paul-chapron,todo,01/12/2017,,true,/paul-chapron/img/photo_paulchapron.jpg
+Paul,Chapron,STRUDEL,CR MTES,Researcher,/paul-chapron,paul-chapron,01/12/2017,,true,/paul-chapron/img/photo_paulchapron.jpg
 Yizi,Chen,STRUDEL,Doctorant,PhD student,/yizi-chen,todo,2019,,true,/yizi-chen/img/yizi.jpeg
 Sidonie,Christophe,GEOVIS,DR2 MTES - Responsable de l'équipe GEOVIS,Senior researcher - head of GEOVIS team,/schristophe_homepage,todo,01/09/2006,,true,/schristophe_homepage/img/sido.png
 Azelle,Courtial,GEOVIS,Doctorante,PhD student,/azelle-courtial,todo,01/10/2019,,true,/azelle-courtial/img/AzelleCourtialCarr%C3%A9e.jpg
@@ -20,20 +20,20 @@ Cécile,Duchêne,MEIG,Enseignant Chercheur,Lecturer,/cecile-duchene,todo,,,true,
 Oussama,Ennafii,STRUDEL,Doctorant,PhD student,/oennafii_homepage,todo,01/09/2016,01/09/2020,false,/oennafii_homepage/img/ennafii.jpg
 Anatol,Garioud,STRUDEL,Doctorant,PhD student,/anatol-garioud,todo,01/10/2018,,true,/anatol-garioud/img/garioud.png
 Jacques,Gautier,GEOVIS,Post-doc,Post-doc,/Jacques-Gautier,todo,15/09/2019,,true,/Jacques-Gautier/img/gautier.png
-Sébastien,Giordano,STRUDEL,CR IGN,Researcher,/sebastien-giordano,todo, 01/09/2016,,true,/sebastien-giordano/img/giordano.jpg
+Sébastien,Giordano,STRUDEL,CR IGN,Researcher,/sebastien-giordano,sebastien-giordano, 01/09/2016,,true,/sebastien-giordano/img/giordano.jpg
 Valérie, Gouet-Brunet,ACTE,DR1 MTES, Senior Researcher,/vgouet,todo, 01/10/2012,,true,/vgouet/img/photo_valerie.jpg
 Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,todo,01/10/2017,,true,/sguinard_homepage/img/guinard.jpg
 Florence,Jacquinod,GEOVIS,Enseignant Chercheur,Lecturer,/florence-jacquinod,todo,01/01/2019,,true,/florence-jacquinod/img/Florence.png
-Laurence,Jolivet,STRUDEL,CR IGN,Senior researcher,/laurence-jolivet,todo,01/10/2006,,true,/lastig_data/img/jolivet.jpg
-Colin,Kerouanton,STRUDEL,Doctorant,PhD student,/lastig_data/cv.php?nom=Kerouanton,todo,01/10/2015,31/01/2020,false,/lastig_data/img/anonyme.jpg
+Laurence,Jolivet,STRUDEL,CR IGN,Senior researcher,/laurence-jolivet,laurence-jolivet,01/10/2006,,true,/lastig_data/img/jolivet.jpg
+Colin,Kerouanton,STRUDEL,Doctorant,PhD student,/lastig_data/cv.php?nom=Kerouanton,colin-kerouanton,01/10/2015,31/01/2020,false,/lastig_data/img/anonyme.jpg
 Loic, Landrieu,STRUDEL,CR, Researcher,https://loiclandrieu.com/,todo,01/10/2015,,true,/lastig_data/img/landrieu.jpg
-Arnaud,Le Bris,STRUDEL,CR IGN, Researcher,/arnaud-le-bris,todo,01/10/2005,,true,/lastig_data/img/le_bris.jpg
+Arnaud,Le Bris,STRUDEL,CR IGN, Researcher,/arnaud-le-bris,arnaud-le-bris,01/10/2005,,true,/lastig_data/img/le_bris.jpg
 Manchun,Lei,ACTE,CR MTES,Researcher,/manchun-lei,todo,01/11/2016,,true,/manchun-lei/img/lei.jpg
 Lâmân,Lelégard,GEOVIS,Ingénieur,Research engineer,/laman-lelegard,todo,01/09/2007,,true,/geovis/faces/lelegard.jpg
 Arnaud,Le Guilcher,MEIG,CR - Responsable de l'équipe MEIG,Senior Researcher - head of MEIG team,/aleguilcher_homepage,todo,01/10/2013,,true,/aleguilcher_homepage/img/aleguilcher.png
 Maria-Jesus,Lobo,GEOVIS,CRCN MTES, Researcher,/maria-jesus-lobo,todo,01/12/2019,,true,https://i1.rgstatic.net/ii/profile.image/434418486648834-1480584846865_Q512/Maria_Jesus_Lobo.jpg
 Imran,Lokhat,GEOVIS,Développeur,IT scientist,/imran-lokhat,todo,01/10/2014,,true,/geovis/faces/lokhat.jpg
-Clément,Mallet,STRUDEL,DR IGN - Responsable de l'équipe STRUDEL,Senior researcher - head of STRUDEL team,/clement-mallet,todo,01/10/2005,,true,/lastig_data/img/mallet.jpg
+Clément,Mallet,STRUDEL,DR IGN - Responsable de l'équipe STRUDEL,Senior researcher - head of STRUDEL team,/clement-mallet,clement-mallet,01/10/2005,,true,/lastig_data/img/mallet.jpg
 Ana-Maria,Olteanu-Raimond,MEIG,CR MTES,Senior researcher,/Ana-Maria-Raimond-homepage,todo,01/01/2013,,true,/Ana-Maria-Raimond-homepage/img/raimond.png
 Evelyn,Paiz,GEOVIS,Doctorante,PhD student,/evelyn-paiz,evelyn-paiz,01/10/2018,,true,/geovis/faces/paiz-reyes.jpg
 Julien,Perret,STRUDEL,DR2 MTES,Senior researcher,/julien-perret,julienperret,01/10/2007,,true,/julien-perret/img/julien.jpg
