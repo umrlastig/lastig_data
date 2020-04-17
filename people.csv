@@ -1,7 +1,7 @@
 firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo
 Nathalie,Abadie,STRUDEL,Chargée de Recherches, Researcher,/nathalie-abadie,nathalie-abadie,01/10/2005,,true,/nathalie-abadie/img/abadie.png
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,/lastig_data/img/anonyme.jpg
-Charly,Bernard,STRUDEL,Ingénieur,Engineer,/charly-bernard,todo,01/10/2019,,true,/lastig_data/img/anonyme.jpg
+Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,todo,01/10/2019,,true,/lastig_data/img/anonyme.jpg
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,/lastig_data/img/anonyme.jpg
 Sébastien,Biniek,GEOVIS,Doctorant,PhD student,/sebastien-biniek,todo,01/12/2016,,true,/geovis/faces/biniek.jpg
 Amine,Bourki,STRUDEL,Post-doc,PhD student,https://github.com/abourki,todo,01/10/2018,01/03/2020,false,/lastig_data/img/anonyme.jpg
@@ -40,6 +40,7 @@ Evelyn,Paiz,GEOVIS,Doctorante,PhD student,/evelyn-paiz,evelyn-paiz,01/10/2018,,t
 Julien,Perret,STRUDEL,Directeur de Recherches,Senior researcher,/julien-perret,julienperret,01/10/2007,,true,/julien-perret/img/julien.jpg
 Nathan,Piasco,ACTE,Doctorant,PhD student,/np_homepage,todo,01/10/2016,,true,/np_homepage/img/piasco.jpg
 Martyna,Poreba,ACTE,CR MTES,Researcher,/martyna-poreba,todo,01/12/2016,,true,/lastig_data/img/poreba.jpg
+Marc, Poupée,STRUDEL,Enseignant-Chercheur, Enseignant-Chercheur,todo,todo, 01/10/2016,,true,/lastig_data/img/anonyme.jpg
 Ewelina,Rupnik,ACTE,CR MTES,Researcher,/ewelina-rupnik,todo,01/11/2017,,true,/ewelina-rupnik/img/er.png
 Qasem,Safariallahkheili,GEOVIS,Doctorant,PhD student,/Safariallahkheili_Homepage,todo,01/12/2018,,true,/geovis/faces/safariallahkheili.jpg
 Vivien,Sainte-Fare-Garnot,STRUDEL,Doctorant,PhD student,/vivien-sainte-fare-garnot,todo,01/10/2018,,true,/vivien-sainte-fare-garnot/img/profpic.jpeg
