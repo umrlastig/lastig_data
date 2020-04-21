@@ -21,7 +21,7 @@ jobs:
       with:
         # Repository name with owner. For example, actions/checkout
         # Default: ${{ github.repository }}
-        repository: 'https://github.com/umrlastig/strudel.git'
+        repository: 'umrlastig/strudel'
         # Whether to checkout submodules: `true` to checkout submodules or `recursive` to
         # recursively checkout submodules.
         #
@@ -44,4 +44,4 @@ jobs:
       with:
         github_token: ${{ secrets.SYNC_WITH_STRUDEL_TOKEN }}
         branch: gh_pages
-        repository: 'https://github.com/umrlastig/strudel.git'
+        repository: 'umrlastig/strudel'
