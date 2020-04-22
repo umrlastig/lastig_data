@@ -21,12 +21,27 @@ jobs:
       with:
         # Repository name with owner. For example, actions/checkout
         # Default: ${{ github.repository }}
-        repository: 'umrlastig/strudel'
+        repository: umrlastig/strudel
 
         # The branch, tag or SHA to checkout. When checking out the repository that
         # triggered a workflow, this defaults to the reference or SHA for that event.
         # Otherwise, defaults to `master`.
-        ref: 'gh_pages'
+        ref: gh_pages
+
+        # Personal access token (PAT) used to fetch the repository. The PAT is configured
+        # with the local git config, which enables your scripts to run authenticated git
+        # commands. The post-job step removes the PAT.
+        #
+        # We recommend using a service account with the least permissions necessary. Also
+        # when generating a new PAT, select the least scopes necessary.
+        #
+        # [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
+        #
+        # Default: ${{ github.token }}
+        token: ${{ secrets.SYNC_WITH_STRUDEL_TOKEN }}
+
+        # Relative path under $GITHUB_WORKSPACE to place the repository
+        path: strudel
 
         # Whether to checkout submodules: `true` to checkout submodules or `recursive` to
         # recursively checkout submodules.
@@ -35,19 +50,22 @@ jobs:
         # `git@github.com:` are converted to HTTPS.
         #
         # Default: false
-        submodules: 'recursive'
+        submodules: recursive
     - name: Checkout submodules
       uses: srt32/git-actions@v0.0.3
+      working-directory: strudel
       with:
         args: git submodule update --init --recursive
     - name: Commit files
+      working-directory: strudel
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "Updating remote data files from lastig_data" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
+      working-directory: strudel
       with:
         github_token: ${{ secrets.SYNC_WITH_STRUDEL_TOKEN }}
         branch: gh_pages
-        repository: 'umrlastig/strudel'
+        repository: umrlastig/strudel
