@@ -52,10 +52,8 @@ jobs:
         # Default: false
         submodules: recursive
     - name: Checkout submodules
-      uses: srt32/git-actions@v0.0.3
       working-directory: strudel
-      with:
-        args: git submodule update --init --recursive
+      run: git submodule update --init --recursive
     - name: Commit files
       working-directory: strudel
       run: |
