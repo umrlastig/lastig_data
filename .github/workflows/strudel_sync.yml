@@ -62,8 +62,8 @@ jobs:
         git commit -m "Updating remote data files from lastig_data" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
-      directory: strudel
       with:
         github_token: ${{ secrets.SYNC_WITH_STRUDEL_TOKEN }}
         branch: gh_pages
         repository: umrlastig/strudel
+        directory: strudel
