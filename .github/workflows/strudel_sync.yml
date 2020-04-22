@@ -22,6 +22,12 @@ jobs:
         # Repository name with owner. For example, actions/checkout
         # Default: ${{ github.repository }}
         repository: 'umrlastig/strudel'
+
+        # The branch, tag or SHA to checkout. When checking out the repository that
+        # triggered a workflow, this defaults to the reference or SHA for that event.
+        # Otherwise, defaults to `master`.
+        ref: 'gh_pages'
+
         # Whether to checkout submodules: `true` to checkout submodules or `recursive` to
         # recursively checkout submodules.
         #
