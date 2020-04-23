@@ -13,3 +13,6 @@ For an internship offer:
 
 For a PhD offer:
 > PhD;Généralisation cartographique multi-échelles par apprentissage profond;Multi-scale cartographic generalisation with deep learning techniques;https://raw.githubusercontent.com/umrlastig/lastig_data/master/pdf/sujet-these-2019_touya.pdf; GEOVIS;true
+
+For a Post-doc offer:
+> postdoc,titre,title,url_fr,url_en,MEIG,false
