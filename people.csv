@@ -1,3 +1,4 @@
+firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo
 Nathalie,Abadie,STRUDEL,Chargée de Recherches,Researcher,/nathalie-abadie,nathalie-abadie,01/10/2005,,true,/nathalie-abadie/img/abadie.png
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,/lastig_data/img/abstract-user-icon.svg
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,todo,01/10/2019,,true,/lastig_data/img/abstract-user-icon.svg
@@ -35,7 +36,6 @@ Florence,Jacquinod,GEOVIS,Enseignant Chercheur,Lecturer,/florence-jacquinod,todo
 Laurence,Jolivet,STRUDEL,Chargé de Recherches,Senior researcher,/laurence-jolivet,laurence-jolivet,01/10/2006,,true,/lastig_data/img/jolivet.jpg
 Colin,Kerouanton,STRUDEL,Doctorant,PhD student,https://www.researchgate.net/profile/Colin_Kerouanton,colin-kerouanton,01/10/2015,31/01/2020,false,https://i1.rgstatic.net/ii/profile.image/380038672338945-1467619688968_Q512/Colin_Kerouanton.jpg
 Loic,Landrieu,STRUDEL,Chargé de Recherches,Researcher,https://loiclandrieu.com/,loic-landrieu,01/10/2015,,true,/lastig_data/img/landrieu.jpg
-firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo
 Arnaud,Le Bris,STRUDEL,Chargé de Recherches,Researcher,/arnaud-le-bris,arnaud-le-bris,01/10/2005,,true,/lastig_data/img/le_bris.jpg
 Arnaud,Le Guilcher,MEIG,CR - Responsable de l'équipe MEIG,Senior Researcher - head of MEIG team,/aleguilcher_homepage,todo,01/10/2013,,true,/aleguilcher_homepage/img/aleguilcher.png
 Manchun,Lei,ACTE,CR MTES,Researcher,/manchun-lei,manchun-lei,01/11/2016,,true,/manchun-lei/img/lei.jpg
