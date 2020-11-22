@@ -1,7 +1,7 @@
 firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo
 Nathalie,Abadie,STRUDEL,Chargée de Recherches,Researcher,/nathalie-abadie,nathalie-abadie,01/10/2005,,true,/nathalie-abadie/img/abadie.png
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,/lastig_data/img/abstract-user-icon.svg
-Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,todo,01/10/2019,,true,/lastig_data/img/abstract-user-icon.svg
+Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,todo,01/10/2019,,true,/lastig_data/img/charly.png
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,/lastig_data/img/anonyme.jpg
 Sébastien,Biniek,GEOVIS,Doctorant,PhD student,/sebastien-biniek,todo,01/12/2016,,true,/geovis/faces/biniek.jpg
 Emile,Blettery,ACTE,Doctorant,PhD student,,,,,true,/lastig_data/img/anonyme.jpg
@@ -46,7 +46,7 @@ Lâmân,Lelégard,GEOVIS,Ingénieur,Research engineer,/laman-lelegard,todo,01/09
 Maria-Jesus,Lobo,GEOVIS,CRCN MTES,Researcher,/maria-jesus-lobo,todo,01/12/2019,,true,https://i1.rgstatic.net/ii/profile.image/434418486648834-1480584846865_Q512/Maria_Jesus_Lobo.jpg
 Imran,Lokhat,GEOVIS,Développeur,IT scientist,/imran-lokhat,todo,01/10/2014,,true,/geovis/faces/lokhat.jpg
 Romain,Loiseau,STRUDEL,Doctorant,PhD student,/romain-loiseau,romain-loiseau,01/09/2020,,true,/lastig_data/img/abstract-user-icon.svg
-Clément,Mallet,STRUDEL,Directeur de Recherches - Responsable de l'équipe STRUDEL,Senior researcher - head of STRUDEL team,/clement-mallet,clement-mallet,01/10/2005,,true,/lastig_data/img/mallet.jpg
+Clément,Mallet,STRUDEL,Directeur de Recherches - Responsable de l'équipe STRUDEL,Senior researcher - head of STRUDEL team,/clement-mallet,clement-mallet,01/10/2005,,true,/clement-mallet/img/mallet.jpg
 Yanis,Marchand,ACTE,Doctorant,PhD student,/yanis-marchand,,,,true,/yanis-marchand/img/yanis.png
 Olivier,Martin,ACTE,Ingénieur de Recherches,Research engineer,http://loemi.recherche.ign.fr/cv.php?prenom=Olivier&nom=MARTIN,,,,true,/lastig_data/img/anonyme.jpg
 Christophe,Meynard,ACTE,Ingénieur de Recherches,Research engineer,http://loemi.recherche.ign.fr/cv.php?prenom=Christophe&nom=MEYNARD,,,,true,/lastig_data/img/anonyme.jpg
