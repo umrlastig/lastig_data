@@ -1,4 +1,5 @@
 type,titre,title,pdf_fr,pdf_en,team,filled
+Internship,Interfaçage et l‘évaluation des corrélateurs récents de la littérature dans MicMac,Interface and evaluate SOTA image matching algorithms in MicMac,/lastig_data/pdf/sujet_stage_ai4geo.pdf,/lastig_data/pdf/sujet_stage_ai4geo.pdf,ACTE,false
 Internship,Visualisation du vent en 3D,3D Wind Visualization,/lastig_data/pdf/2021_3D_WindViz_FR.pdf,/lastig_data/pdf/2021_3D_WindViz_EN.pdf,GEOVIS,false
 Internship,Modes de représentation pour l'agrégation multi-échelles d'estimations rapides de pertes après séisme(Projet UrbaRiskLab),Multi-scale representation of damage estimation after an earthquake (Projet UrbaRiskLab),/lastig_data/pdf/sujet_stage_BRGM_touya.pdf,/lastig_data/pdf/sujet_stage_BRGM_touya.pdf,GEOVIS,false
 Internship,Simulation d'éclairements des surfaces ombrées en zone urbaine par transfert radiatif 3D (modèle DART),Simulation of irradiance of shaded surfaces in urban areas using 3D radiative transfer (DART model),/manchun-lei/doc/Fiche_stage_dart_2020.pdf,/manchun-lei/doc/Fiche_stage_dart_2020.pdf,ACTE,false
