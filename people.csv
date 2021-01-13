@@ -28,7 +28,7 @@ Imane,Fikri,ACTE,Doctorant,PhD student,,,,,true,/lastig_data/img/anonyme.jpg
 Pierre-Louis,Frison,ACTE,MCF HDR,Senior Researcher,/plf_homepage,,,,true,/lastig_data/img/anonyme.jpg
 Bénédicte,Fruneau,ACTE,MCF HDR,Senior Researcher,http://recherche.ign.fr/labos/matis/cv.php?nom=Fruneau&prenom=B%E9n%E9dicte,,,,true,/lastig_data/img/anonyme.jpg
 Anatol,Garioud,STRUDEL,Doctorant,PhD student,/anatol-garioud,todo,01/10/2018,,true,/lastig_data/img/garioud.png
-Jacques,Gautier,GEOVIS,Post-doc,Post-doc,/Jacques-Gautier,todo,15/09/2019,,true,/Jacques-Gautier/img/gautier.png
+Jacques,Gautier,GEOVIS,Enseignant-Chercheur,Lecturer,/Jacques-Gautier,todo,15/09/2019,,true,/Jacques-Gautier/img/gautier.png
 Sébastien,Giordano,STRUDEL,Chargé de Recherches,Researcher,/sebastien-giordano,sebastien-giordano,01/09/2016,30/06/2020,false,/lastig_data/img/giordano.jpg
 Dimitri,Gominski,ACTE,Doctorant,PhD student,,,,,true,/lastig_data/img/anonyme.jpg
 Valérie,Gouet-Brunet,ACTE,DR1 MTES,Senior Researcher,/vgouet,todo,01/10/2012,,true,/vgouet/img/photo_valerie.jpg
@@ -36,6 +36,7 @@ Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,todo,01/10/2017,
 Florence,Jacquinod,GEOVIS,Enseignant Chercheur,Lecturer,/florence-jacquinod,todo,01/01/2019,,true,/florence-jacquinod/img/Florence.png
 Markie,Jiang,GEOVIS,Doctorante,PhD student,/markie-jiang,todo,02/11/2020,,true,/geovis/faces/jiang.png
 Laurence,Jolivet,STRUDEL,Chargée de Recherches,Researcher,/laurence-jolivet,laurence-jolivet,01/10/2006,,true,/lastig_data/img/jolivet.jpg
+Ekaterina,Kalinicheva,STRUDEL,Post-doc,Post-doc,/ekaterina-kalinicheva,ekaterina-kalinicheva,04/01/2021,31/12/2023,true,/lastig_data/img/anonyme.jpg
 Colin,Kerouanton,STRUDEL,Doctorant,PhD student,https://www.researchgate.net/profile/Colin_Kerouanton,colin-kerouanton,01/10/2015,31/01/2020,false,https://i1.rgstatic.net/ii/profile.image/380038672338945-1467619688968_Q512/Colin_Kerouanton.jpg
 Loic,Landrieu,STRUDEL,Chargé de Recherches,Researcher,https://loiclandrieu.com/,loic-landrieu,01/10/2015,,true,/lastig_data/img/landrieu.jpg
 Yann,Le Borgne,ACTE,Technicien d'études,Technician,http://loemi.recherche.ign.fr/cv.php?prenom=Yann&nom=Le,,,01/01/2020,true,/lastig_data/img/anonyme.jpg
@@ -51,14 +52,14 @@ Yanis,Marchand,ACTE,Doctorant,PhD student,/yanis-marchand,,,,true,/yanis-marchan
 Olivier,Martin,ACTE,Ingénieur de Recherches,Research engineer,http://loemi.recherche.ign.fr/cv.php?prenom=Olivier&nom=MARTIN,,,,true,/lastig_data/img/anonyme.jpg
 Christophe,Meynard,ACTE,Ingénieur de Recherches,Research engineer,http://loemi.recherche.ign.fr/cv.php?prenom=Christophe&nom=MEYNARD,,,,true,/lastig_data/img/anonyme.jpg
 Jean-Michaël,Muller,ACTE,Ingénieur de Recherches,Research engineer,/jmmuller_lastig_homepage,,,,true,/jmmuller_lastig_homepage/img/muller.png
-Quoc,Nguyen,ACTE,Ingénieur de Recherches,Research engineer,/qdnguyen,,,,true,/lastig_data/img/anonyme.jpg
+Quoc,Nguyen,ACTE,Ingénieur de Recherches,Research engineer,/qdnguyen,,,,false,/lastig_data/img/anonyme.jpg
 Ana-Maria,Olteanu-Raimond,MEIG,CR MTES,Senior researcher,/Ana-Maria-Raimond-homepage,todo,01/01/2013,,true,/Ana-Maria-Raimond-homepage/img/raimond.png
 Evelyn,Paiz,GEOVIS,Doctorante,PhD student,/evelyn-paiz,evelyn-paiz,01/10/2018,,true,/geovis/faces/paiz-reyes.jpg
 Jean-Pierre,Papelard,ACTE,Ingénieur de Recherches,Research engineer,http://recherche.ign.fr/labos/matis/cv.php?nom=Papelard&prenom=Jean-Pierre,,,,true,/lastig_data/img/anonyme.jpg
 Julien,Perret,STRUDEL,Directeur de Recherches,Senior researcher,/julien-perret,julienperret,01/10/2007,,true,/julien-perret/img/julien.jpg
 Nathan,Piasco,ACTE,Doctorant,PhD student,/np_homepage,todo,01/10/2016,01/01/2020,true,/np_homepage/img/piasco.jpg
 Marc,Pierrot-Deseilligny,ACTE,DR IGN - Directeur du laboratoire,Senior Researcher – head of LASTIG lab,https://micmac.ensg.eu/index.php/Marc_Pierrot-Deseilligny,,,,true,/lastig_data/img/anonyme.jpg
-Martyna,Poreba,ACTE,CR MTES,Researcher,/martyna-poreba,todo,01/12/2016,,true,/lastig_data/img/poreba.jpg
+Martyna,Poreba,ACTE,CR MTES,Researcher,/martyna-poreba,todo,01/12/2016,,false,/lastig_data/img/poreba.jpg
 Tristan,Postadjian,STRUDEL,Doctorant,PhD student,todo,todo,01/09/2015,01/06/2019,false,https://www.umr-lastig.fr/strudel/assets/images/postadjian.jpg
 Marc,Poupée,STRUDEL,Enseignant-Chercheur,Lecturer,todo,todo,01/10/2016,,true,/lastig_data/img/poupee.jpg
 Helen,Rawsthorne,STRUDEL,Doctorant,PhD student,/helen-rawsthorne,helen-rawsthorne,03/11/2020,,true,/lastig_data/img/abstract-user-icon.svg
@@ -68,7 +69,7 @@ Jean-Paul,Rudant,ACTE,Pr émérite,Professor emeritus ,http://recherche.ign.fr/l
 Ewelina,Rupnik,ACTE,CR MTES,Researcher,/ewelina-rupnik,todo,01/11/2017,,true,/ewelina-rupnik/img/er.png
 Qasem,Safariallahkheili,GEOVIS,Doctorant,PhD student,/Safariallahkheili_Homepage,todo,01/12/2018,,true,/geovis/faces/safariallahkheili.jpg
 Vivien,Sainte-Fare-Garnot,STRUDEL,Doctorant,PhD student,/vivien-sainte-fare-garnot,todo,01/10/2018,,true,/vivien-sainte-fare-garnot/img/profpic.jpeg
-Imane,Salhi,ACTE,Doctorant,PhD student,,,,,true,/lastig_data/img/anonyme.jpg
+Imane,Salhi,ACTE,Doctorant,PhD student,,,,,false,/lastig_data/img/anonyme.jpg
 Ali,Seba,ACTE,Post-doc,Post-doc,http://recherche.ign.fr/labos/matis/cv.php?nom=Seba&prenom=Ali,,,01/06/2019,true,/lastig_data/img/anonyme.jpg
 Jean-Philippe,Souchon,ACTE,Ingénieur de Recherches,Research engineer,http://loemi.recherche.ign.fr/cv.php?prenom=Jean-Philippe&nom=SOUCHON,,,,true,/lastig_data/img/anonyme.jpg
 Raphael,Sulzer,ACTE,Doctorant,PhD student,/raphael-sulzer,todo,2018,,true,/raphael-sulzer/img/me.png
