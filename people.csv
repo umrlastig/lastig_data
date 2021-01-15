@@ -18,9 +18,9 @@ Sidonie,Christophe,GEOVIS,DR2 MTES - Responsable de l'équipe GEOVIS,Senior rese
 Maxime,Colomb,STRUDEL,Doctorant,PhD student,http://maxime-colomb.eu/,maxime-colomb,01/10/2015,27/09/2019,false,/lastig_data/img/colomb.jpg
 Benoît,Costes,STRUDEL,Chercheur,Researcher,http://recherche.ign.fr/labos/cogit/cv.php?nom=Costes,todo,01/10/2010,14/07/2019,false,/lastig_data/img/costes.jpg
 Azelle,Courtial,GEOVIS,Doctorante,PhD student,/azelle-courtial,todo,01/10/2019,,true,/azelle-courtial/img/AzelleCourtialCarr%C3%A9e.jpg
-Daniela,Craciun,STRUDEL,Post-doc,Post-doc,/daniela-craciun,daniela-craciun,23/11/2020,22/11/2022,true,/lastig_data/img/anonyme.jpg
+Daniela,Craciun,STRUDEL,Post-doc,Post-doc,/daniela-craciun,daniela-craciun,23/11/2020,,true,/lastig_data/img/anonyme.jpg
 Rémi,Cura,STRUDEL,Doctorant,PhD student,http://remi.cura.info/,todo,01/04/2013,30/09/2016,false,https://avatars2.githubusercontent.com/u/4725794?v=3&s=400
-Alexandre,Devaux,GEOVIS,Ingénieur,Research engineer,/adevaux_homepage,todo,01/07/2008,,false,/geovis/faces/devaux.jpg
+Alexandre,Devaux,GEOVIS,Ingénieur,Research engineer,/adevaux_homepage,todo,01/07/2008,31/12/2020,false,/geovis/faces/devaux.jpg
 Catherine,Dominguès,MEIG,CR IGN,Senior researcher,/cdomingues_homepage,todo,01/01/2005,,true,/lastig_data/img/domingues.jpg
 Cécile,Duchêne,MEIG,Enseignant Chercheur,Lecturer,/cecile-duchene,todo,,,true,/lastig_data/img/anonyme.jpg
 Bertrand,Duménieu,STRUDEL,Doctorant,PhD student,http://crh.ehess.fr/index.php?5206,todo,06/04/2010,01/12/2016,false,/lastig_data/img/abstract-user-icon.svg
@@ -37,7 +37,7 @@ Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,todo,01/10/2017,
 Florence,Jacquinod,GEOVIS,Enseignant Chercheur,Lecturer,/florence-jacquinod,todo,01/01/2019,,true,/florence-jacquinod/img/Florence.png
 Markie,Jiang,GEOVIS,Doctorante,PhD student,/markie-jiang,todo,02/11/2020,,true,/geovis/faces/jiang.png
 Laurence,Jolivet,STRUDEL,Chargée de Recherches,Researcher,/laurence-jolivet,laurence-jolivet,01/10/2006,,true,/lastig_data/img/jolivet.jpg
-Ekaterina,Kalinicheva,STRUDEL,Post-doc,Post-doc,/ekaterina-kalinicheva,ekaterina-kalinicheva,04/01/2021,31/12/2023,true,/lastig_data/img/anonyme.jpg
+Ekaterina,Kalinicheva,STRUDEL,Post-doc,Post-doc,/ekaterina-kalinicheva,ekaterina-kalinicheva,04/01/2021,,true,/lastig_data/img/anonyme.jpg
 Colin,Kerouanton,STRUDEL,Doctorant,PhD student,https://www.researchgate.net/profile/Colin_Kerouanton,colin-kerouanton,01/10/2015,31/01/2020,false,https://i1.rgstatic.net/ii/profile.image/380038672338945-1467619688968_Q512/Colin_Kerouanton.jpg
 Loic,Landrieu,STRUDEL,Chargé de Recherches,Researcher,https://loiclandrieu.com/,loic-landrieu,01/10/2015,,true,/lastig_data/img/landrieu.jpg
 Yann,Le Borgne,ACTE,Technicien d'études,Technician,http://loemi.recherche.ign.fr/cv.php?prenom=Yann&nom=Le,,,01/01/2020,true,/lastig_data/img/anonyme.jpg
@@ -68,7 +68,7 @@ Damien,Robert,STRUDEL,Doctorant,PhD student,/damien-robert,damien-robert,01/09/2
 Pierre,Rolin,ACTE,Post-doc,Post-doc,"http://recherche.ign.fr/labos/matis/cv.php?nom=Rolin&prenom=Pierre""",,,01/01/2020,false,/lastig_data/img/anonyme.jpg
 Jean-Paul,Rudant,ACTE,Pr émérite,Professor emeritus ,http://recherche.ign.fr/labos/matis/cv.php?nom=Rudant&prenom=Jean-Paul,,,,true,/lastig_data/img/anonyme.jpg
 Ewelina,Rupnik,ACTE,CR MTES,Researcher,/ewelina-rupnik,todo,01/11/2017,,true,/ewelina-rupnik/img/er.png
-Qasem,Safariallahkheili,GEOVIS,Doctorant,PhD student,/Safariallahkheili_Homepage,todo,01/12/2018,,true,/geovis/faces/safariallahkheili.jpg
+Qasem,Safariallahkheili,GEOVIS,Doctorant,PhD student,/Safariallahkheili_Homepage,todo,01/12/2018,30/11/2020,true,/geovis/faces/safariallahkheili.jpg
 Vivien,Sainte-Fare-Garnot,STRUDEL,Doctorant,PhD student,/vivien-sainte-fare-garnot,todo,01/10/2018,,true,/vivien-sainte-fare-garnot/img/profpic.jpeg
 Imane,Salhi,ACTE,Doctorant,PhD student,,,,,false,/lastig_data/img/anonyme.jpg
 Ali,Seba,ACTE,Post-doc,Post-doc,http://recherche.ign.fr/labos/matis/cv.php?nom=Seba&prenom=Ali,,,01/06/2019,true,/lastig_data/img/anonyme.jpg
