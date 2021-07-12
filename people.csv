@@ -1,10 +1,11 @@
 firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo
+Saif,Aati,ACTE,Doctorant,PhD student,/saif-aati,todo,01/07/2020,,true,/lastig_data/img/anonyme.jpg
 Nathalie,Abadie,STRUDEL,CR IGN,Researcher,/nathalie-abadie,nathalie-abadie,01/10/2005,,true,/nathalie-abadie/img/abadie.png
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,/lastig_data/img/abstract-user-icon.svg
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,todo,01/10/2019,,true,/lastig_data/img/charly.png
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,/lastig_data/img/anonyme.jpg
 Sébastien,Biniek,SCALES,Doctorant,PhD student,/sebastien-biniek,todo,01/12/2016,,true,/geovis/faces/biniek.jpg
-Emile,Blettery,ACTE,Doctorant,PhD student,,,,,true,/lastig_data/img/anonyme.jpg
+Emile,Blettery,ACTE,Doctorant,PhD student,,,01/08/2020,,true,/lastig_data/img/anonyme.jpg
 Amine,Bourki,STRUDEL,Post-doc,PhD student,https://github.com/abourki,todo,01/10/2018,01/03/2020,false,/lastig_data/img/abstract-user-icon.svg
 Mohamed,Boussaha,ACTE,Doctorant,PhD student,http://recherche.ign.fr/labos/matis/cv.php?prenom=&nom=Boussaha,,09/2016,01/01/2020,true,/lastig_data/img/anonyme.jpg
 Mickaël,Brasebin,STRUDEL,Chargé de Recherches,Researcher,https://mbrasebin.github.io,todo,01/10/2007,18/12/2018,false,https://mbrasebin.github.io/img/brasebin.jpg
@@ -13,6 +14,7 @@ Bénédicte,Bucher,MEIG,Directrice de recherche IGN,Senior researcher,/benedicte
 Mattia,Bunel,MEIG,Doctorant,PhD student,/mattia-bunel,todo,01/10/2017,19/02/2021,false,/lastig_data/img/anonyme.jpg
 Laurent,Caraffa,ACTE,CR MTE,Researcher,/laurent-caraffa,todo,2014,,true,/laurent-caraffa/img/laurent.jpg
 Mohamed,Chachoua,MEIG,Enseignant-Chercheur,Lecturer,/mohamed-chachoua,todo,01/01/2019,,true,/lastig_data/img/anonyme.jpg
+Adnane,Chakir,ACTE,Doctorant,PhD student,/adnane-chakir,todo,01/10/2020,,true,/lastig_data/img/anonyme.jpg
 Paul,Chapron,STRUDEL,CR MTE,Researcher,/paul-chapron,paul-chapron,01/12/2017,,true,/paul-chapron/img/photo_paulchapron.jpg
 Yizi,Chen,STRUDEL,Doctorant,PhD student,/yizi-chen,todo,2019,,true,/lastig_data/img/yizi.jpg
 Sidonie,Christophe,GEOVIS,DR2 MTE - Responsable de l'équipe GEOVIS,Senior researcher - head of GEOVIS team,/sidonie-christophe,todo,01/09/2006,,true,/sidonie-christophe/img/sido.png
@@ -23,6 +25,7 @@ Daniela,Craciun,STRUDEL,Post-doc,Post-doc,/daniela-craciun,daniela-craciun,23/11
 Rémi,Cura,STRUDEL,Doctorant,PhD student,http://remi.cura.info/,todo,01/04/2013,30/09/2016,false,https://avatars2.githubusercontent.com/u/4725794?v=3&s=400
 Alexandre,Devaux,GEOVIS,Ingénieur,Research engineer,/adevaux_homepage,todo,01/07/2008,31/12/2020,false,/geovis/faces/devaux.jpg
 Catherine,Dominguès,MEIG,CR IGN,Senior researcher,/cdomingues_homepage,todo,01/01/2005,,true,/lastig_data/img/domingues.jpg
+Chuanming,Dong,MEIG,Doctorant,PhD student,/chuanming-dong,todo,01/07/2019,,true,/lastig_data/img/anonyme.jpg
 Cécile,Duchêne,MEIG,Enseignant Chercheur,Lecturer,/cecile-duchene,todo,,,true,/lastig_data/img/anonyme.jpg
 Bertrand,Duménieu,STRUDEL,Doctorant,PhD student,http://crh.ehess.fr/index.php?5206,todo,06/04/2010,01/12/2016,false,/lastig_data/img/abstract-user-icon.svg
 Oussama,Ennafii,STRUDEL,Doctorant,PhD student,/oennafii_homepage,oussama-ennafii,01/09/2016,01/09/2020,false,/oennafii_homepage/img/ennafii.jpg
@@ -81,6 +84,7 @@ Guillaume,Touya,SCALES,DR IGN,Senior researcher,/guillaume-touya,guillaume-touya
 Quy Thy,Truong,MEIG,Doctorante,PhD student,/qttruong_homepage,todo,02/11/2016,08/01/2020,false,/lastig_data/img/anonyme.jpg
 Bruno,Vallet,ACTE,CR IGN - Responsable de l'équipe ACTE,Senior researcher - head of ACTE team,/bruno-vallet,bruno-vallet,01/09/08,,true,/bruno-vallet/img/vallet.png
 Marie-Dominique,Van Damme,MEIG,Chargée d'études et de recherche,Research engineer,/mdvandamme,,,,true,/mdvandamme/img/mdvandamme.jpg
+Charles,Villard,ACTE,Doctorant,PhD student,/charles-villard,todo,20/11/2020,,true,/lastig_data/img/anonyme.jpg
 Teng,Wu,ACTE,Post-doc,Post-doc,/WU-Teng,,,,true,/WU-Teng/img/whuwuteng.jpg
 Lulin,Zhang,ACTE,Doctorant,PhD student,/Lulin-Zhang,,,,true,/lastig_data/img/anonyme.jpg
 Yilin,Zhou,ACTE,Doctorante,PhD student,,,,01/01/2020,true,/lastig_data/img/anonyme.jpg
