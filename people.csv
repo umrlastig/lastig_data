@@ -1,20 +1,20 @@
-firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo
-Saif,Aati,ACTE,Doctorant,PhD student,/saif-aati,todo,01/07/2020,,true,/lastig_data/img/anonyme.jpg
-Nathalie,Abadie,STRUDEL,CR IGN,Researcher,/nathalie-abadie,nathalie-abadie,01/10/2005,,true,/nathalie-abadie/img/abadie.png
-Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,/lastig_data/img/abstract-user-icon.svg
-Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,todo,01/10/2019,,true,/lastig_data/img/charly.png
-Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,/lastig_data/img/anonyme.jpg
-Sébastien,Biniek,SCALES,Doctorant,PhD student,/sebastien-biniek,todo,01/12/2016,,true,/geovis/faces/biniek.jpg
-Emile,Blettery,ACTE,Doctorant,PhD student,/emile-blettery,emile-blettery,01/08/2020,,true,/lastig_data/img/anonyme.jpg
-Amine,Bourki,STRUDEL,Post-doc,PhD student,https://github.com/abourki,todo,01/10/2018,01/03/2020,false,/lastig_data/img/abstract-user-icon.svg
-Mohamed,Boussaha,ACTE,Doctorant,PhD student,http://recherche.ign.fr/labos/matis/cv.php?prenom=&nom=Boussaha,,09/2016,01/01/2020,true,/lastig_data/img/anonyme.jpg
-Mickaël,Brasebin,STRUDEL,Chargé de Recherches,Researcher,https://mbrasebin.github.io,todo,01/10/2007,18/12/2018,false,https://mbrasebin.github.io/img/brasebin.jpg
-Mathieu,Brédif,GEOVIS,CR IGN,Researcher,/mathieu-bredif,mathieu-bredif,01/09/2005,,true,/geovis/faces/bredif.jpg
-Bénédicte,Bucher,MEIG,Directrice de recherche IGN,Senior researcher,/benedicte-bucher,bbucher,,,true,/benedicte-bucher/img/Bucher.jpg
-Mattia,Bunel,MEIG,Doctorant,PhD student,/mattia-bunel,todo,01/10/2017,19/02/2021,false,/lastig_data/img/anonyme.jpg
-Laurent,Caraffa,ACTE,CR MTE,Researcher,/laurent-caraffa,todo,2014,,true,/laurent-caraffa/img/laurent.jpg
-Mohamed,Chachoua,MEIG,Enseignant-Chercheur,Lecturer,/mohamed-chachoua,todo,01/01/2019,,true,/lastig_data/img/anonyme.jpg
-Adnane,Chakir,ACTE,Doctorant,PhD student,/adnane-chakir,todo,01/10/2020,,true,/lastig_data/img/anonyme.jpg
+firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo,perm
+Saif,Aati,ACTE,Doctorant,PhD student,/saif-aati,todo,01/07/2020,,true,/lastig_data/img/anonyme.jpg,false
+Nathalie,Abadie,STRUDEL,CR IGN,Researcher,/nathalie-abadie,nathalie-abadie,01/10/2005,,true,/nathalie-abadie/img/abadie.png,true
+Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,/lastig_data/img/abstract-user-icon.svg,false
+Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,todo,01/10/2019,,true,/lastig_data/img/charly.png,true
+Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,/lastig_data/img/anonyme.jpg,false
+Sébastien,Biniek,SCALES,Doctorant,PhD student,/sebastien-biniek,todo,01/12/2016,,true,/geovis/faces/biniek.jpg,false
+Emile,Blettery,ACTE,Doctorant,PhD student,/emile-blettery,emile-blettery,01/08/2020,,true,/lastig_data/img/anonyme.jpg,false
+Amine,Bourki,STRUDEL,Post-doc,PhD student,https://github.com/abourki,todo,01/10/2018,01/03/2020,false,/lastig_data/img/abstract-user-icon.svg,false
+Mohamed,Boussaha,ACTE,Doctorant,PhD student,http://recherche.ign.fr/labos/matis/cv.php?prenom=&nom=Boussaha,,09/2016,01/01/2020,true,/lastig_data/img/anonyme.jpg,false
+Mickaël,Brasebin,STRUDEL,Chargé de Recherches,Researcher,https://mbrasebin.github.io,todo,01/10/2007,18/12/2018,false,https://mbrasebin.github.io/img/brasebin.jpg,true
+Mathieu,Brédif,GEOVIS,CR IGN,Researcher,/mathieu-bredif,mathieu-bredif,01/09/2005,,true,/geovis/faces/bredif.jpg,true
+Bénédicte,Bucher,MEIG,Directrice de recherche IGN,Senior researcher,/benedicte-bucher,bbucher,,,true,/benedicte-bucher/img/Bucher.jpg,true
+Mattia,Bunel,MEIG,Doctorant,PhD student,/mattia-bunel,todo,01/10/2017,19/02/2021,false,/lastig_data/img/anonyme.jpg,false
+Laurent,Caraffa,ACTE,CR MTE,Researcher,/laurent-caraffa,todo,2014,,true,/laurent-caraffa/img/laurent.jpg,true
+Mohamed,Chachoua,MEIG,Enseignant-Chercheur,Lecturer,/mohamed-chachoua,todo,01/01/2019,,true,/lastig_data/img/anonyme.jpg,true
+Adnane,Chakir,ACTE,Doctorant,PhD student,/adnane-chakir,todo,01/10/2020,,true,/lastig_data/img/anonyme.jpg,false
 Paul,Chapron,STRUDEL,CR MTE,Researcher,/paul-chapron,paul-chapron,01/12/2017,,true,/paul-chapron/img/photo_paulchapron.jpg
 Yizi,Chen,STRUDEL,Doctorant,PhD student,/yizi-chen,todo,2019,,true,/lastig_data/img/yizi.jpg
 Sidonie,Christophe,GEOVIS,DR2 MTE - Responsable de l'équipe GEOVIS,Senior researcher - head of GEOVIS team,/sidonie-christophe,todo,01/09/2006,,true,/sidonie-christophe/img/sido.png
