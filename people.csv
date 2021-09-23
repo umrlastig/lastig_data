@@ -4,7 +4,7 @@ Nathalie,Abadie,STRUDEL,CR IGN,Researcher,/nathalie-abadie,nathalie-abadie,01/10
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,/lastig_data/img/abstract-user-icon.svg,false
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,todo,01/10/2019,,true,/lastig_data/img/charly.png,true
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,/lastig_data/img/anonyme.jpg,false
-Sébastien,Biniek,SCALES,Doctorant,PhD student,/sebastien-biniek,todo,01/12/2016,,true,/geovis/faces/biniek.jpg,false
+Sébastien,Biniek,SCALES,Doctorant,PhD student,/sebastien-biniek,todo,01/12/2016,,true,/sebastien-biniek/img/biniek.jpg,false
 Emile,Blettery,ACTE,Doctorant,PhD student,/emile-blettery,emile-blettery,01/08/2020,,true,/lastig_data/img/anonyme.jpg,false
 Amine,Bourki,STRUDEL,Post-doc,PhD student,https://github.com/abourki,todo,01/10/2018,01/03/2020,false,/lastig_data/img/abstract-user-icon.svg,false
 Mohamed,Boussaha,ACTE,Doctorant,PhD student,http://recherche.ign.fr/labos/matis/cv.php?prenom=&nom=Boussaha,,09/2016,01/01/2020,true,/lastig_data/img/anonyme.jpg,false
@@ -51,7 +51,7 @@ Manchun,Lei,ACTE,CR MTE,Researcher,/manchun-lei,manchun-lei,01/11/2016,,true,/ma
 Lâmân,Lelégard,GEOVIS,Ingénieur,Research engineer,/laman-lelegard,todo,01/09/2007,,true,/geovis/faces/lelegard.jpg,true
 Maria-Jesus,Lobo,GEOVIS,CR MTE,Researcher,/maria-jesus-lobo,todo,01/12/2019,,true,https://i1.rgstatic.net/ii/profile.image/434418486648834-1480584846865_Q512/Maria_Jesus_Lobo.jpg,true
 Imran,Lokhat,GEOVIS,Développeur,IT scientist,/imran-lokhat,todo,01/10/2014,15/03/2021,false,/geovis/faces/lokhat.jpg,true
-Romain,Loiseau,STRUDEL,Doctorant,PhD student,/romain-loiseau,romain-loiseau,01/09/2020,,true,/lastig_data/img/abstract-user-icon.svg,false
+Romain,Loiseau,STRUDEL,Doctorant,PhD student,/romain-loiseau,romain-loiseau,01/09/2020,,true,/romain-loiseau/img/loiseau.jpg,false
 Clément,Mallet,STRUDEL,DR IGN,Senior researcher,/clement-mallet,clement-mallet,01/10/2005,,true,/clement-mallet/img/mallet.jpg,true
 Yanis,Marchand,ACTE,Doctorant,PhD student,/yanis-marchand,,,,true,/yanis-marchand/img/yanis.png,false
 Olivier,Martin,ACTE,Ingénieur de Recherches,Research engineer,http://loemi.recherche.ign.fr/cv.php?prenom=Olivier&nom=MARTIN,,,,true,/lastig_data/img/anonyme.jpg,true
@@ -67,7 +67,7 @@ Marc,Pierrot-Deseilligny,ACTE,DR0 MTE,Senior researcher,https://micmac.ensg.eu/i
 Martyna,Poreba,ACTE,CR MTE,Researcher,/martyna-poreba,todo,01/12/2016,15/12/20,false,/lastig_data/img/poreba.jpg,true
 Tristan,Postadjian,STRUDEL,Doctorant,PhD student,todo,todo,01/09/2015,01/06/2019,false,https://www.umr-lastig.fr/strudel/assets/images/postadjian.jpg,false
 Marc,Poupée,STRUDEL,Enseignant-Chercheur,Lecturer,todo,todo,01/10/2016,,true,/lastig_data/img/poupee.jpg,true
-Helen,Rawsthorne,STRUDEL,Doctorant,PhD student,/helen-rawsthorne,helen-rawsthorne,03/11/2020,,true,/lastig_data/img/abstract-user-icon.svg,false
+Helen,Rawsthorne,STRUDEL,Doctorant,PhD student,/helen-rawsthorne,helen-rawsthorne,03/11/2020,,true,/helen-rawsthorne/img/HMR.jpeg,false
 Damien,Robert,STRUDEL,Doctorant,PhD student,/damien-robert,damien-robert,01/09/2020,,true,/damien-robert/img/damien.png,false
 Pierre,Rolin,ACTE,Post-doc,Post-doc,"http://recherche.ign.fr/labos/matis/cv.php?nom=Rolin&prenom=Pierre""",,,01/01/2020,false,/lastig_data/img/anonyme.jpg,false
 Jean-Paul,Rudant,ACTE,Pr émérite,Professor emeritus ,http://recherche.ign.fr/labos/matis/cv.php?nom=Rudant&prenom=Jean-Paul,,,,true,/lastig_data/img/anonyme.jpg,true
@@ -88,4 +88,4 @@ Charles,Villard,ACTE,Doctorant,PhD student,/charles-villard,todo,20/11/2020,,tru
 Teng,Wu,ACTE,Post-doc,Post-doc,/WU-Teng,,,,true,/WU-Teng/img/whuwuteng.jpg,false
 Lulin,Zhang,ACTE,Doctorant,PhD student,/Lulin-Zhang,,,,true,/lastig_data/img/anonyme.jpg,false
 Yilin,Zhou,ACTE,Doctorante,PhD student,,,,01/01/2020,true,/lastig_data/img/anonyme.jpg,false
-Mehdi,Zrhal,MEIG,Doctorant,PhD student,/Mehdi-Zrhal,todo,01/09/2019,,true,/lastig_data/img/anonyme.jpg,false
+Mehdi,Zrhal,MEIG,Doctorant,PhD student,/Mehdi-Zrhal,todo,01/09/2019,,true,/Mehdi-Zrhal/img/Zrhal.jpg,false
