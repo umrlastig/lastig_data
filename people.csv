@@ -25,7 +25,7 @@ Azelle,Courtial,SCALES,Doctorante,PhD student,/azelle-courtial,todo,01/10/2019,,
 Daniela,Craciun,STRUDEL,Post-doc,Post-doc,/daniela-craciun,daniela-craciun,23/11/2020,22/11/2022,true,/lastig_data/img/abstract-user-icon.svg,false
 Rémi,Cura,STRUDEL,Doctorant,PhD student,http://remi.cura.info/,todo,01/04/2013,30/09/2016,false,https://avatars2.githubusercontent.com/u/4725794?v=3&s=400,false
 Alexandre,Devaux,GEOVIS,Ingénieur,Research engineer,/adevaux_homepage,todo,01/07/2008,31/12/2020,false,/geovis/faces/devaux.jpg,true
-Catherine,Dominguès,MEIG,CR IGN,Senior researcher,/cdomingues_homepage,todo,01/01/2005,,true,/lastig_data/img/domingues.jpg,true
+Catherine,Dominguès,MEIG,CR IGN,Senior researcher,/cdomingues_homepage,todo,01/01/2005,,true,/cdomingues_homepage/img/Domingues2020.png,true
 Chuanming,Dong,MEIG,Doctorant,PhD student,/chuanming-dong,todo,01/07/2019,,true,/lastig_data/img/abstract-user-icon.svg,false
 Cécile,Duchêne,MEIG,Enseignant Chercheur,Lecturer,/cecile-duchene,todo,,,true,/cecile-duchene/img/cduchene3.png,true
 Bertrand,Duménieu,STRUDEL,Doctorant,PhD student,http://crh.ehess.fr/index.php?5206,todo,06/04/2010,01/12/2016,false,/lastig_data/img/abstract-user-icon.svg,false
@@ -38,8 +38,10 @@ Jacques,Gautier,GEOVIS,Enseignant-Chercheur,Lecturer,/Jacques-Gautier,todo,15/09
 Sébastien,Giordano,STRUDEL,Chargé de Recherches,Researcher,/sebastien-giordano,sebastien-giordano,01/09/2016,30/06/2020,false,/lastig_data/img/giordano.jpg,true
 Dimitri,Gominski,ACTE,Doctorant,PhD student,,,22/01/2018,09/11/2021,false,/lastig_data/img/abstract-user-icon.svg,false
 Valérie,Gouet-Brunet,ACTE,DR1 MTE,Senior Researcher,/vgouet,todo,01/10/2012,,true,/vgouet/img/photo_valerie.jpg,true
+Malika,Grim-Yefsah,MEIG,MCF,Lecturer and Researcher,,todo,01/04/2017,,true,/lastig_data/img/abstract-user-icon.svg,true
 Grégoire,Grzeczkowicz,ACTE,Doctorant,PhD student,/gregoire-grzeczkowicz,todo,14/04/2021,31/08/2024,true,/gregoire-grzeczkowicz/img/grzeczkowicz.jpg,false
 Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,todo,01/10/2017,01/03/20,true,/sguinard_homepage/img/guinard.jpg,false
+Melvin,Hersent,STRUDEL,Ingénieur,Engineer,,todo,02/11/2021,,true,/lastig_data/img/abstract-user-icon.svg,false
 Florence,Jacquinod,GEOVIS,Enseignant-Chercheur,Lecturer,/florence-jacquinod,todo,01/01/2019,,true,/florence-jacquinod/img/Florence.png,true
 Markie,Jiang,GEOVIS,Doctorante,PhD student,/markie-jiang,todo,02/11/2020,,true,/geovis/faces/jiang.png,false
 Laurence,Jolivet,STRUDEL,CR IGN,Researcher,/laurence-jolivet,laurence-jolivet,01/10/2006,,true,/lastig_data/img/jolivet.jpg,true
@@ -70,6 +72,7 @@ Marc,Pierrot-Deseilligny,ACTE,DR0 MTE,Senior researcher,https://micmac.ensg.eu/i
 Martyna,Poreba,ACTE,CR MTE,Researcher,/martyna-poreba,todo,01/12/2016,15/12/20,false,/lastig_data/img/poreba.jpg,true
 Tristan,Postadjian,STRUDEL,Doctorant,PhD student,todo,todo,01/09/2015,01/06/2019,false,https://www.umr-lastig.fr/strudel/assets/images/postadjian.jpg,false
 Marc,Poupée,STRUDEL,Enseignant-Chercheur,Lecturer,todo,todo,01/10/2016,,true,/lastig_data/img/poupee.jpg,true
+Juste,Raimbault,STRUDEL,CR MTE,Researcher,,todo,03/01/2022,,true,/lastig_data/img/abstract-user-icon.svg,true
 Helen,Rawsthorne,STRUDEL,Doctorant,PhD student,/helen-rawsthorne,helen-rawsthorne,03/11/2020,,true,/helen-rawsthorne/img/HMR.jpeg,false
 Damien,Robert,STRUDEL,Doctorant,PhD student,/damien-robert,damien-robert,01/09/2020,,true,/damien-robert/img/damien.png,false
 Pierre,Rolin,ACTE,Post-doc,Post-doc,"http://recherche.ign.fr/labos/matis/cv.php?nom=Rolin&prenom=Pierre""",,,01/01/2020,false,/lastig_data/img/abstract-user-icon.svg,false
@@ -92,6 +95,6 @@ Teng,Wu,ACTE,Post-doc,Post-doc,/WU-Teng,,,,true,/WU-Teng/img/whuwuteng.jpg,false
 Lulin,Zhang,ACTE,Post-doc,Post-doc,/Lulin-Zhang,,,,true,/lastig_data/img/abstract-user-icon.svg,false
 Yilin,Zhou,ACTE,Doctorante,PhD student,,,,01/01/2020,true,/lastig_data/img/abstract-user-icon.svg,false
 Mehdi,Zrhal,MEIG,Doctorant,PhD student,/Mehdi-Zrhal,todo,01/09/2019,,true,/Mehdi-Zrhal/img/Zrhal.jpg,false
-Melvin,Hersent,STRUDEL,Ingénieur,Engineer,,todo,02/11/2021,,true,/lastig_data/img/abstract-user-icon.svg,false
-Juste,Raimbault,STRUDEL,CR MTE,Researcher,,todo,03/01/2022,,true,/lastig_data/img/abstract-user-icon.svg,true
+
+
 
