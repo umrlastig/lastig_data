@@ -1,7 +1,7 @@
 firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo,perm
 Saif,Aati,ACTE,Doctorant,PhD student,/saif-aati,todo,01/07/2020,,true,/lastig_data/img/abstract-user-icon.svg,false
 Nathalie,Abadie,STRUDEL,CR IGN,Researcher,/nathalie-abadie,nathalie-abadie,01/10/2005,,true,/nathalie-abadie/img/abadie.png,true
-Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,todo,01/10/2019,,true,/lastig_data/img/abstract-user-icon.svg,false
+Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,luc-baudoux,01/10/2019,,true,/lastig_data/img/abstract-user-icon.svg,false
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,charly-bernard,01/10/2019,,true,/lastig_data/img/charly.png,true
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,/lastig_data/img/abstract-user-icon.svg,false
 Sébastien,Biniek,SCALES,Doctorant,PhD student,/sebastien-biniek,todo,01/12/2016,01/09/2020,false,/sebastien-biniek/img/biniek.jpg,false
