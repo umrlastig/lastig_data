@@ -17,7 +17,7 @@ Laurent,Caraffa,ACTE,CR MTE,Researcher,/laurent-caraffa,todo,2014,,true,/laurent
 Mohamed,Chachoua,MEIG,Enseignant-Chercheur,Lecturer,/mohamed-chachoua,todo,01/01/2019,,true,/lastig_data/img/abstract-user-icon.svg,true
 Adnane,Chakir,ACTE,Doctorant,PhD student,/adnane-chakir,todo,01/10/2020,,true,/lastig_data/img/abstract-user-icon.svg,false
 Paul,Chapron,STRUDEL,CR MTE,Researcher,/paul-chapron,paul-chapron,01/12/2017,,true,/paul-chapron/img/photo_paulchapron.jpg,true
-Yizi,Chen,STRUDEL,Doctorant,PhD student,/yizi-chen,todo,2019,,true,/lastig_data/img/yizi.jpg,false
+Yizi,Chen,STRUDEL,Doctorant,PhD student,/yizi-chen,yizi-chen,2019,,true,/lastig_data/img/yizi.jpg,false
 Sidonie,Christophe,GEOVIS,DR2 MTE - Responsable de l'équipe GEOVIS,Senior researcher - head of GEOVIS team,/sidonie-christophe,todo,01/09/2006,,true,/sidonie-christophe/img/sido.png,true
 Maxime,Colomb,STRUDEL,Doctorant,PhD student,http://maxime-colomb.eu/,maxime-colomb,01/10/2015,27/09/2019,false,/lastig_data/img/colomb.jpg,false
 Benoît,Costes,STRUDEL,Chercheur,Researcher,http://recherche.ign.fr/labos/cogit/cv.php?nom=Costes,todo,01/10/2010,14/07/2019,false,/lastig_data/img/costes.jpg,true
@@ -43,7 +43,7 @@ Malika,Grim-Yefsah,MEIG,MCF,Lecturer and Researcher,,todo,01/04/2017,,true,/last
 Maieul,Gruget,GEOVIS,Doctorant,PhD student,/maieul-gruget,maieul-gruget,01/09/2021,,true,/maieul-gruget/img/gruget.jpg,false
 Grégoire,Grzeczkowicz,ACTE,Doctorant,PhD student,/gregoire-grzeczkowicz,todo,14/04/2021,31/08/2024,true,/gregoire-grzeczkowicz/img/grzeczkowicz.jpg,false
 Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,todo,01/10/2017,01/03/20,true,/sguinard_homepage/img/guinard.jpg,false
-Melvin,Hersent,STRUDEL,Ingénieur,Engineer,/melvin-hersent,todo,02/11/2021,,true,/lastig_data/img/abstract-user-icon.svg,false
+Melvin,Hersent,STRUDEL,Ingénieur,Engineer,/melvin-hersent,melvin-hersent,02/11/2021,,true,/lastig_data/img/abstract-user-icon.svg,false
 Alexandre,Hippert-Ferrer,STRUDEL,Enseignant-Chercheur,Lecturer,https://ahippert.github.io/,alexandre-hippert-ferrer,01/09/2022,,true,/lastig_data/img/abstract-user-icon.svg,true
 Florence,Jacquinod,GEOVIS,Enseignant-Chercheur,Lecturer,/florence-jacquinod,todo,01/01/2019,,true,/florence-jacquinod/img/Florence.png,true
 Markie,Jiang,GEOVIS,Doctorante,PhD student,/markie-jiang,todo,02/11/2020,,true,/geovis/faces/jiang.png,false
@@ -91,7 +91,7 @@ Imane,Salhi,ACTE,Doctorant,PhD student,,,,,false,/lastig_data/img/abstract-user-
 Ali,Seba,ACTE,Post-doc,Post-doc,http://recherche.ign.fr/labos/matis/cv.php?nom=Seba&prenom=Ali,,,01/06/2019,true,/lastig_data/img/abstract-user-icon.svg,false
 Jean-Philippe,Souchon,ACTE,Ingénieur de Recherches,Research engineer,http://loemi.recherche.ign.fr/cv.php?prenom=Jean-Philippe&nom=SOUCHON,,,,true,/lastig_data/img/abstract-user-icon.svg,true
 Raphael,Sulzer,ACTE,Doctorant,PhD student,/raphael-sulzer,todo,2018,,true,/raphael-sulzer/img/me.png,false
-Hermann,Tagné,STRUDEL,Doctorant,PhD student,todo,todo,2018,,true,/lastig_data/img/abstract-user-icon.svg,false
+Hermann,Tagné,STRUDEL,Doctorant,PhD student,todo,hermann-tagne,2018,,true,/lastig_data/img/abstract-user-icon.svg,false
 Christian,Thom,ACTE,DR IGN,Senior researcher,/christian.thom,,,,true,/christian.thom/img/Ch_Thom.png,true
 Guillaume,Touya,SCALES,DR IGN,Senior researcher,/guillaume-touya,guillaume-touya,10/09/2004,,true,/geovis/faces/touya.jpg,true
 Quy Thy,Truong,MEIG,Doctorante,PhD student,/qttruong_homepage,todo,02/11/2016,08/01/2020,true,/lastig_data/img/abstract-user-icon.svg,false
