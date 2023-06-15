@@ -45,13 +45,13 @@ Malika,Grim-Yefsah,MEIG,MCF,Lecturer and Researcher,/malika-grim-yefsah,grimyefs
 Maieul,Gruget,GEOVIS,Doctorant,PhD student,/maieul-gruget,maieul-gruget,01/09/2021,,true,/maieul-gruget/img/gruget.jpg,false
 Grégoire,Grzeczkowicz,ACTE,Doctorant,PhD student,/gregoire-grzeczkowicz,ggrzeczkowicz,14/04/2021,31/08/2024,true,/gregoire-grzeczkowicz/img/grzeczkowicz.jpg,false
 Sami,Guembour,MEIG,Doctorant,PhD student,/Sami-Guembour,todo,01/09/2022,,true,/Sami-Guembour/img/Sami.png,false
-Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,stephane-guinard,01/10/2017,01/03/20,true,/sguinard_homepage/img/guinard.jpg,false
+Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,stephane-guinard,01/10/2017,01/03/20,false,/sguinard_homepage/img/guinard.jpg,false
 Melvin,Hersent,STRUDEL,Ingénieur,Engineer,/melvin-hersent,melvin-hersent,02/11/2021,,true,/lastig_data/img/abstract-user-icon.svg,false
 Alexandre,Hippert-Ferrer,STRUDEL,Enseignant-Chercheur,Lecturer,https://ahippert.github.io/,alexandre-hippert-ferrer,01/09/2022,,true,/lastig_data/img/abstract-user-icon.svg,true
 Florence,Jacquinod,GEOVIS,Enseignant-Chercheur,Lecturer,/florence-jacquinod,florence-jacquinod,01/01/2019,,true,/florence-jacquinod/img/Florence.png,true
 Markie,Jiang,GEOVIS,Doctorante,PhD student,/markie-jiang,todo,02/11/2020,,true,/geovis/faces/jiang.png,false
 Laurence,Jolivet,STRUDEL,CR IGN,Researcher,/laurence-jolivet,laurence-jolivet,01/10/2006,,true,/lastig_data/img/jolivet.jpg,true
-Ekaterina,Kalinicheva,STRUDEL,Post-doc,Post-doc,/ekaterina-kalinicheva,ekaterina-kalinicheva,04/01/2021,03/01/2023,true,/lastig_data/img/abstract-user-icon.svg,false
+Ekaterina,Kalinicheva,STRUDEL,Post-doc,Post-doc,/ekaterina-kalinicheva,ekaterina-kalinicheva,04/01/2021,03/01/2023,false,/lastig_data/img/abstract-user-icon.svg,false
 Colin,Kerouanton,STRUDEL,Doctorant,PhD student,https://www.researchgate.net/profile/Colin_Kerouanton,colin-kerouanton,01/10/2015,31/01/2020,false,https://i1.rgstatic.net/ii/profile.image/380038672338945-1467619688968_Q512/Colin_Kerouanton.jpg,false
 Guillaume,Koehl,STRUDEL,Ingénieur,Engineer,/guillaume-koehl,todo,04/07/2022,,true,/lastig_data/img/abstract-user-icon.svg,true
 Loic,Landrieu,STRUDEL,CR IGN,Researcher,https://loiclandrieu.com/,loic-landrieu,01/10/2015,30/03/2023,false,/lastig_data/img/landrieu.jpg,true
@@ -111,3 +111,11 @@ Chahine-Nicolas,Zede,ACTE,Doctorant,PhD student,/Chahine-Nicolas-Zede,Chahine-Ni
 Lulin,Zhang,ACTE,Post-doc,Post-doc,/Lulin-Zhang,todo,,,false,/lastig_data/img/abstract-user-icon.svg,false
 Yilin,Zhou,ACTE,Doctorante,PhD student,todo,todo,,01/01/2020,false,/lastig_data/img/abstract-user-icon.svg,false
 Mehdi,Zrhal,MEIG,Doctorant,PhD student,/Mehdi-Zrhal,todo,01/09/2019,31/01/2023,false,/Mehdi-Zrhal/img/Zrhal.jpg,false
+Sylvain,Galopin,ACTE,Doctorant,PhD student,,todo,,,true,,false
+Nicolas,Gonthier,STRUDEL,,,,todo,,,true,,true
+Guillaume,Astruc,STRUDEL,,,,todo,,,true,,false
+Quentin,Potié,GEOVIS,,,,todo,,,true,,false
+Wissal,Benjira,MEIG,,,,todo,,,true,,false
+Bertrand,Dumenieu,STRUDEL,,,,todo,,,true,,false
+Christelle,Fleutry,,,,,todo,,,true,,false
+Emmanuel,Cledat,ACTE,,,,todo,,,true,,true
