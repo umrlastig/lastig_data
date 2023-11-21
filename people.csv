@@ -2,7 +2,7 @@ firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,pho
 Saif,Aati,ACTE,Doctorant,PhD student,/saif-aati,todo,01/07/2020,31/03/2023,false,/lastig_data/img/abstract-user-icon.svg,false
 Mohamed,Ali-Chebbi,ACTE,Doctorant,PhD student,/mohamed-alichebbi,todo,01/07/2020,,true,/lastig_data/img/abstract-user-icon.svg,false
 Nathalie,Abadie,STRUDEL,CR IGN,Researcher,/nathalie-abadie,nathalie-abadie,01/10/2005,,true,/nathalie-abadie/img/abadie.png,true
-Guillaume,Astruc,STRUDEL,,,,todo,,,true,/lastig_data/img/abstract-user-icon.svg,false
+Guillaume,Astruc,STRUDEL,Doctorant,PhD student,,todo,,todo,02/10/2023,,true,,false
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,luc-baudoux,01/10/2019,30/01/2023,false,/lastig_data/img/abstract-user-icon.svg,false
 Wissal,Benjira,MEIG,,,,todo,,,true,/lastig_data/img/abstract-user-icon.svg,false
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,charly-bernard,01/10/2019,,true,/lastig_data/img/charly.png,true
@@ -83,7 +83,7 @@ Jean-Michaël,Muller,ACTE,Ingénieur de Recherches,Research engineer,/jmmuller_l
 Sébastien,Mustière,MEIG,Enseignant Chercheur,Lecturer,,todo,,30/04/2023,false,/lastig_data/img/abstract-user-icon.svg,true
 Mouhamadou,Ndim,MEIG,Ingénieur,Engineer,/mndim_homepage,mouhamadou-ndim,13/02/2023,,true,/mndim_homepage/ndim.jpg,false
 Quoc,Nguyen,ACTE,Ingénieur de Recherches,Research engineer,/qdnguyen,todo,,15/10/20,false,/lastig_data/img/abstract-user-icon.svg,false
-Alexane,Nghien,ACTE,Doctorante,PhD student,/alexane-nghien,alexane-nghien,07/11/2023,,true,/lastig_data/img/abstract-user-icon.svg,true
+Alexane,Nghien,ACTE,Doctorante,PhD student,/alexane-nghien,alexane-nghien,07/11/2023,,true,,true
 Ana-Maria,Olteanu-Raimond,MEIG,DR MTE,Senior researcher,/Ana-Maria-Raimond-homepage,ana-maria-olteanu-raimond,01/01/2013,,true,/Ana-Maria-Raimond-homepage/img/raimond.png,true
 Evelyn,Paiz-Reyes,GEOVIS,Doctorante,PhD student,/evelyn-paiz,evelyn-paiz,01/10/2018,08/12/2021,false,/geovis/faces/paiz-reyes.jpg,false
 Jean-Pierre,Papelard,ACTE,Ingénieur de Recherches,Research engineer,http://recherche.ign.fr/labos/matis/cv.php?nom=Papelard&prenom=Jean-Pierre,todo,,,true,/lastig_data/img/abstract-user-icon.svg,true
@@ -120,3 +120,9 @@ Chahine-Nicolas,Zede,ACTE,Doctorant,PhD student,/Chahine-Nicolas-Zede,Chahine-Ni
 Lulin,Zhang,ACTE,Post-doc,Post-doc,/Lulin-Zhang,todo,,,false,/lastig_data/img/abstract-user-icon.svg,false
 Yilin,Zhou,ACTE,Doctorante,PhD student,todo,todo,,01/01/2020,false,/lastig_data/img/abstract-user-icon.svg,false
 Mehdi,Zrhal,MEIG,Doctorant,PhD student,/Mehdi-Zrhal,todo,01/09/2019,31/01/2023,false,/Mehdi-Zrhal/img/Zrhal.jpg,false
+Arthur,Delorme,ACTE,Doctorant,PhD student,https://www.ipgp.fr/~delorme/,arthur-delorme,01/09/2022,,true,https://www.ipgp.fr/~delorme/images/photo.jpg,true
+Christian,Staron,ACTE,Ingénieur,Engineer,,todo,01/11/2023,,true,,false
+Camille,Billouard,ACTE,Doctorant,PhD student,,todo,09/10/2023,,true,,false
+Florent,Thébault,STRUDEL,Doctorant,PhD student,,todo,01/05/2022,,true,,false
+Yanis,Benidir,STRUDEL,Doctorant,PdD student,,todo,01/09/2023,,true,,false
+firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo,perm
