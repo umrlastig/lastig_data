@@ -125,4 +125,3 @@ Christian,Staron,ACTE,Ingénieur,Engineer,,todo,01/11/2023,,true,,false
 Camille,Billouard,ACTE,Doctorant,PhD student,,todo,09/10/2023,,true,,false
 Florent,Thébault,STRUDEL,Doctorant,PhD student,,todo,01/05/2022,,true,,false
 Yanis,Benidir,STRUDEL,Doctorant,PdD student,,todo,01/09/2023,,true,,false
-firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo,perm
