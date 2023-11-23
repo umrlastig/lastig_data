@@ -33,7 +33,7 @@
 		nodes.add({id:'STRUDEL', label:'STRUDEL', group:'team', image: root+'/img/icons/logo_strudel_1280.png', href: root+'/strudel/'});
 		nodes.add({id:'MEIG', label:'MEIG', group:'team', image: root+'/img/icons/logo_meig_1280.png', href: root+'/meig/'});
 
-		for(const line of people.text.split('\n')) {
+		for(const line of people.split('\n')) {
 			const cols = line.trim().split(',');
 			if(cols.length < 3 || cols[0]=='firstname') continue;
 			const firstname = cols[0];
@@ -91,7 +91,7 @@
 		});      
       }
       
-      fetch("people.csv").then(response => response.json()).then(init);
+      fetch("people.csv").then(response => response.text()).then(init);
       
     </script>
   </body>
