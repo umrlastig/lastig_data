@@ -2,7 +2,7 @@ firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,pho
 Saif,Aati,ACTE,Doctorant,PhD student,/saif-aati,todo,01/07/2020,31/03/2023,false,/lastig_data/img/abstract-user-icon.svg,false
 Mohamed,Ali-Chebbi,ACTE,Doctorant,PhD student,/mohamed-alichebbi,todo,01/07/2020,,true,/lastig_data/img/abstract-user-icon.svg,false
 Nathalie,Abadie,STRUDEL,CR IGN,Researcher,/nathalie-abadie,nathalie-abadie,01/10/2005,,true,/nathalie-abadie/img/abadie.png,true
-Guillaume,Astruc,STRUDEL,Doctorant,PhD student,,,todo,02/10/2023,,true,,false
+Guillaume,Astruc,STRUDEL,Doctorant,PhD student,,,02/10/2023,,true,,false
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,luc-baudoux,01/10/2019,30/01/2023,false,/lastig_data/img/abstract-user-icon.svg,false
 Wissal,Benjira,MEIG,,,,todo,,,true,/lastig_data/img/abstract-user-icon.svg,false
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,charly-bernard,01/10/2019,,true,/lastig_data/img/charly.png,true
