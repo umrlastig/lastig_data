@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vis Network | Basic usage</title>
+
+    <script type="text/javascript" src="js/vis-network.min.js"></script>
+
+    <style type="text/css">
+      #mynetwork {
+        width: 100%;
+        height: 800px;
+        border: 1px solid lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Create a simple network with some nodes and edges.</p>
+
+    <div id="mynetwork"></div>
+
+    <script type="text/javascript">
+	const root = 'https://www.umr-lastig.fr';
+
+	function init(people) {
+		// create an array with nodes
+		var nodes = new vis.DataSet([]);
+		var edges = new vis.DataSet([]);
+
+		nodes.add({id:'LASTIG', label:'LASTIG', shape:'image', size:50, image: '/img/lastig_400.png', href: root+'/'});
+		nodes.add({id:'ACTE', label:'ACTE', group:'team', image: root+'/img/icons/logo_acte_1280.png', href: root+'/acte/'});
+		nodes.add({id:'GEOVIS', label:'GEOVIS', group:'team', image: root+'/img/icons/logo_geovis_1280.png', href: root+'/geovis/'});
+		nodes.add({id:'STRUDEL', label:'STRUDEL', group:'team', image: root+'/img/icons/logo_strudel_1280.png', href: root+'/strudel/'});
+		nodes.add({id:'MEIG', label:'MEIG', group:'team', image: root+'/img/icons/logo_meig_1280.png', href: root+'/meig/'});
+
+		for(const line of people.text.split('\n')) {
+			const cols = line.trim().split(',');
+			if(cols.length < 3 || cols[0]=='firstname') continue;
+			const firstname = cols[0];
+			const lastname = cols[1];
+			const team = cols[2];
+			const statut = cols[3];
+			const status = cols[4];
+			const href = cols[5].startsWith('http')? cols[5] : (root+cols[5]);
+			const HAL = cols[6];
+			const start_date = cols[7];
+			const end_date = cols[8];
+			const member = cols[9] == 'true';
+			const photo = cols[10].startsWith('http')? cols[10] : (root+cols[10]);
+			const perm = cols[11] == 'true';
+			const id = firstname+'\n'+lastname;
+			nodes.add({ id: id, label:id, shape:'circularImage', image: photo, opacity:member?1:0.2, href:href, perm:perm });
+			edges.add({ from: id, to: team});
+		}
+
+		edges.add({ from: 'Clément\nMallet', to: 'LASTIG'});
+		edges.add({ from: 'Ana-Maria\nOlteanu-Raimond', to: 'LASTIG'});
+
+		edges.add({ from: 'ACTE', to: 'LASTIG'});
+		edges.add({ from: 'MEIG', to: 'LASTIG'});
+		edges.add({ from: 'GEOVIS', to: 'LASTIG'});
+		edges.add({ from: 'STRUDEL', to: 'LASTIG'});
+
+		// create a network
+
+		const nodesFilter = (node) => {
+			return node.group=='team' || node.perm;
+		};
+		const edgesFilter = (edge) => {
+			return true;
+		};
+		const nodesView = new vis.DataView(nodes, { filter: nodesFilter });
+		const edgesView = new vis.DataView(edges, { filter: edgesFilter });
+
+		var container = document.getElementById("mynetwork");
+		var data = {
+			nodes: nodesView,
+			edges: edgesView,
+		};
+		var options = {
+		groups: {
+			team: {shape:'circularImage', size:100}
+		}
+		};
+		var network = new vis.Network(container, data, options);
+
+		network.on( 'doubleClick', function(properties) {
+			var nodeId = network.getNodeAt({x:properties.event.srcEvent.offsetX, y:properties.event.srcEvent.offsetY});
+			var node = nodes.get(nodeId);
+			window.location=node.href;
+		});      
+      }
+      
+      fetch("people.csv").then(response => response.json()).then(init);
+      
+    </script>
+  </body>
+</html>
+
