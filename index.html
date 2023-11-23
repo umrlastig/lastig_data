@@ -8,8 +8,11 @@
 
     <style type="text/css">
       #mynetwork {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
-        height: 800px;
+        height: 100%	;
         border: 1px solid lightgray;
       }
     </style>
@@ -21,13 +24,20 @@
 
     <script type="text/javascript">
 	const root = 'https://www.umr-lastig.fr';
+	const default_img = '/lastig_data/img/abstract-user-icon.svg';
+
+	function date(s) {
+		const split = s.split('/');
+		const d = Date.parse(split[2],split[1],split[0]);
+		return d;
+	}
 
 	function init(people) {
 		// create an array with nodes
 		var nodes = new vis.DataSet([]);
 		var edges = new vis.DataSet([]);
 
-		nodes.add({id:'LASTIG', label:'LASTIG', shape:'image', size:50, image: '/img/lastig_400.png', href: root+'/'});
+		nodes.add({id:'LASTIG', label:'LASTIG', shape:'image', size:50, image: root+'/img/lastig_400.png', href: root});
 		nodes.add({id:'ACTE', label:'ACTE', group:'team', image: root+'/img/icons/logo_acte_1280.png', href: root+'/acte/'});
 		nodes.add({id:'GEOVIS', label:'GEOVIS', group:'team', image: root+'/img/icons/logo_geovis_1280.png', href: root+'/geovis/'});
 		nodes.add({id:'STRUDEL', label:'STRUDEL', group:'team', image: root+'/img/icons/logo_strudel_1280.png', href: root+'/strudel/'});
@@ -41,15 +51,17 @@
 			const team = cols[2];
 			const statut = cols[3];
 			const status = cols[4];
+			cols[5] = cols[5] || default_img;
 			const href = cols[5].startsWith('http')? cols[5] : (root+cols[5]);
 			const HAL = cols[6];
 			const start_date = cols[7];
 			const end_date = cols[8];
+			console.log(lastname, date(start_date), date(end_date));
 			const member = cols[9] == 'true';
 			const photo = cols[10].startsWith('http')? cols[10] : (root+cols[10]);
 			const perm = cols[11] == 'true';
 			const id = firstname+'\n'+lastname;
-			nodes.add({ id: id, label:id, shape:'circularImage', image: photo, opacity:member?1:0.2, href:href, perm:perm });
+			nodes.add({ id: id, label:id, shape:'circularImage', image: photo, opacity:member?1:0.2, href:href, perm:perm, start: });
 			edges.add({ from: id, to: team});
 		}
 
