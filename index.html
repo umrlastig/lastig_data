@@ -27,9 +27,11 @@
   </head>
   <body>
     <div id="filter">
-	<label>Double-click on teams or people to check their websites. Filters: </label><input type="checkbox" name="checkFilter" id="perm" checked=""><label>Permanent</label>
+	<label>Double-click on teams or people to check their websites. Filters: </label>
+	<input type="checkbox" name="checkFilter" id="perm" checked=""><label>Permanent</label>
 	<input type="checkbox" name="checkFilter" id="temp" checked=""><label>Temporary</label>
-    	<input type="text" id="dateSlider" />
+	<input type="checkbox" name="checkFilter" id="team"><label>Teams</label>
+	<input type="text" id="dateSlider" />
     </div>
 
     <div id="mynetwork"></div>
@@ -37,6 +39,7 @@
     <script type="text/javascript">
 	const root = 'https://www.umr-lastig.fr';
 	const default_img = '/lastig_data/img/abstract-user-icon.svg';
+	const YYYY = (new Date()).getFullYear();
 	
 	function init(people) {
 		// create an array with nodes
@@ -69,7 +72,8 @@
 			const perm = cols[11] == 'true';
 			const label = firstname+'\n'+lastname;
 			const id = HAL || (firstname+'-'+lastname);
-			nodes.add({ id: id, label:label, group:'people', image: photo, opacity:member?1:0.2, href:href, perm: perm, start: start_date, end: end_date});
+			const node = { id: id, label:label, group:'people', image: photo, opacity:member?1:0.2, href:href, perm: perm, start: start_date, end: end_date};
+			nodes.add(node);
 			edges.add({ from: id, to: team});
 		}
 
@@ -84,7 +88,6 @@
 		// create a network
 		const nodeFilterValues = {};
 
-		const YYYY = (new Date()).getFullYear();
 		var mySlider = new rSlider({
 			target: '#dateSlider',
 			values: {min: 1995, max: YYYY+5},
@@ -105,7 +108,8 @@
 			const end   = node.end   === undefined || mySlider.conf.values[mySlider.values.start] <= node.end  .getFullYear();
 			const start = node.start === undefined || mySlider.conf.values[mySlider.values.end]   >= node.start.getFullYear();
 			return (start && end) && 
-			(node.perm === undefined || (node.perm ? nodeFilterValues.perm : nodeFilterValues.temp));
+			(node.perm === undefined || (node.perm ? nodeFilterValues.perm : nodeFilterValues.temp)) &&
+			(node.group == "people" || nodeFilterValues.team);
 		};
 		const edgesFilter = (edge) => {
 			return true;
@@ -114,7 +118,7 @@
 		const edgesView = new vis.DataView(edges, { filter: edgesFilter });
 
 		checkFilters.forEach((filter) => {
-			nodeFilterValues[filter.id] = filter.value;
+			nodeFilterValues[filter.id] = filter.checked;
 			filter.addEventListener("change", (e) => {
 				const {id, checked} = e.target;
 				nodeFilterValues[id] = checked;
