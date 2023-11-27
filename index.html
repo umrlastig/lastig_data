@@ -59,7 +59,7 @@
 			if (team == 'SCALES' || team == '') team = '?';
 			const statut = cols[3];
 			const status = cols[4];
-			const href = (cols[5]==undefined || cols[5].startsWith('http'))? cols[5] : (root+cols[5]);
+			const href = (cols[5]===undefined || cols[5].startsWith('http'))? cols[5] : (root+cols[5]);
 			const HAL = cols[6];
 			const start_date = cols[7]!='' ? new Date(cols[7]) : undefined;
 			const end_date = cols[8]!='' ? new Date(cols[8]) : undefined;
@@ -94,9 +94,7 @@
 			scale: true,
 			labels: false,
 			set: [YYYY-3, YYYY+3],
-			onChange: function(values) {
-				nodesView.refresh();
-			}
+			onChange: function(values) { nodesView.refresh(); }
 		});
 		nodeFilterValues.start = mySlider.values.start;
 		nodeFilterValues.end   = mySlider.values.end;
@@ -104,10 +102,10 @@
 		const checkFilters = document.getElementsByName("checkFilter");
 
 		const nodesFilter = (node) => {
-			const end   = node.end   == undefined || mySlider.conf.values[mySlider.values.start] <= node.end  .getFullYear();
-			const start = node.start == undefined || mySlider.conf.values[mySlider.values.end]   >= node.start.getFullYear();
+			const end   = node.end   === undefined || mySlider.conf.values[mySlider.values.start] <= node.end  .getFullYear();
+			const start = node.start === undefined || mySlider.conf.values[mySlider.values.end]   >= node.start.getFullYear();
 			return (start && end) && 
-			(node.perm == undefined || (node.perm ? nodeFilterValues.perm : nodeFilterValues.temp));
+			(node.perm === undefined || (node.perm ? nodeFilterValues.perm : nodeFilterValues.temp));
 		};
 		const edgesFilter = (edge) => {
 			return true;
@@ -121,7 +119,6 @@
 				const {id, checked} = e.target;
 				nodeFilterValues[id] = checked;
 				nodesView.refresh();
-				console.log(id, checked);
 			});
 		});
 
@@ -133,11 +130,11 @@
 				
 		var options = {
 			groups: {
-				team: {shape:'circularImage', size:60},
+				team  : {shape:'circularImage', size:60},
 				people: {shape:'circularImage', size:25}
 			}
 		};
-		var network = new vis.Network(container, data, options);
+		var network = new vis.Network(container, {}, options);
 
 		network.on( 'doubleClick', function(properties) {
 			const nodeId = network.getNodeAt({x:properties.event.srcEvent.offsetX, y:properties.event.srcEvent.offsetY});
@@ -149,7 +146,8 @@
 			const node = nodeId && nodes.get(nodeId);
 			if (node) console.log(node);
 		});
-		network.redraw();
+		nodesView.refresh();
+		network.setData(data);
       }
             
       fetch("/lastig_data/people.csv").then(response => response.text()).then(init);
