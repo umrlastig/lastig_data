@@ -5,6 +5,8 @@
     <title>Vis Network | Basic usage</title>
 
     <script type="text/javascript" src="js/vis-network.min.js"></script>
+    <link rel="stylesheet" href="css/rSlider.min.css">
+    <script src="js/rSlider.min.js"></script>
 
     <style type="text/css">
       #mynetwork {
@@ -14,54 +16,54 @@
         width: 100%;
         height: 100%	;
         border: 1px solid lightgray;
+        z-index: -1;
       }
     </style>
   </head>
   <body>
-    <p>Create a simple network with some nodes and edges.</p>
+    <div id="filter">
+	<input type="checkbox" name="checkFilter" id="perm" checked="">
+	<input type="checkbox" name="checkFilter" id="temp" checked="">
+    	<input type="text" id="sampleSlider" />
+    </p>
 
     <div id="mynetwork"></div>
 
     <script type="text/javascript">
 	const root = 'https://www.umr-lastig.fr';
 	const default_img = '/lastig_data/img/abstract-user-icon.svg';
-
-	function date(s) {
-		const split = s.split('/');
-		const d = Date.parse(split[2],split[1],split[0]);
-		return d;
-	}
-
+	
 	function init(people) {
 		// create an array with nodes
 		var nodes = new vis.DataSet([]);
 		var edges = new vis.DataSet([]);
 
-		nodes.add({id:'LASTIG', label:'LASTIG', shape:'image', size:50, image: root+'/img/lastig_400.png', href: root});
+		nodes.add({id:'LASTIG', shape:'image', size:50, image: root+'/img/lastig_400.png', href: root});
 		nodes.add({id:'ACTE', label:'ACTE', group:'team', image: root+'/img/icons/logo_acte_1280.png', href: root+'/acte/'});
 		nodes.add({id:'GEOVIS', label:'GEOVIS', group:'team', image: root+'/img/icons/logo_geovis_1280.png', href: root+'/geovis/'});
 		nodes.add({id:'STRUDEL', label:'STRUDEL', group:'team', image: root+'/img/icons/logo_strudel_1280.png', href: root+'/strudel/'});
 		nodes.add({id:'MEIG', label:'MEIG', group:'team', image: root+'/img/icons/logo_meig_1280.png', href: root+'/meig/'});
+		nodes.add({id:'?'});
 
 		for(const line of people.split('\n')) {
 			const cols = line.trim().split(',');
 			if(cols.length < 3 || cols[0]=='firstname') continue;
 			const firstname = cols[0];
 			const lastname = cols[1];
-			const team = cols[2];
+			let team = cols[2];
+			if (team == 'SCALES' || team == '') team = '?';
 			const statut = cols[3];
 			const status = cols[4];
-			cols[5] = cols[5] || default_img;
 			const href = cols[5].startsWith('http')? cols[5] : (root+cols[5]);
 			const HAL = cols[6];
-			const start_date = cols[7];
-			const end_date = cols[8];
-			console.log(lastname, date(start_date), date(end_date));
+			const start_date = cols[7]!='' ? new Date(cols[7]) : undefined;
+			const end_date = cols[8]!='' ? new Date(cols[8]) : undefined;
 			const member = cols[9] == 'true';
+			cols[10] = cols[10] || default_img;
 			const photo = cols[10].startsWith('http')? cols[10] : (root+cols[10]);
 			const perm = cols[11] == 'true';
 			const id = firstname+'\n'+lastname;
-			nodes.add({ id: id, label:id, shape:'circularImage', image: photo, opacity:member?1:0.2, href:href, perm:perm, start: });
+			nodes.add({ id: id, label:id, shape:'circularImage', image: photo, opacity:member?1:0.2, href:href, perm: perm, start: start_date, end: end_date});
 			edges.add({ from: id, to: team});
 		}
 
@@ -74,9 +76,33 @@
 		edges.add({ from: 'STRUDEL', to: 'LASTIG'});
 
 		// create a network
+		const nodeFilterValues = {};
+
+		const YYYY = (new Date()).getFullYear();
+		var mySlider = new rSlider({
+			target: '#sampleSlider',
+			values: {min: 2000, max: YYYY+3},
+			step: 1,
+			range: true,
+			tooltip: true,
+			scale: true,
+			labels: false,
+			set: [YYYY-3, YYYY+3],
+			onChange: function(values) {
+				nodesView.refresh();
+			}
+		});
+		nodeFilterValues.start = mySlider.values.start;
+		nodeFilterValues.end   = mySlider.values.end;
+		console.log(mySlider.value);
+
+		const rangeFilters = document.getElementsByName("rangeFilter");
+		const checkFilters = document.getElementsByName("checkFilter");
 
 		const nodesFilter = (node) => {
-			return node.group=='team' || node.perm;
+			const end   = node.end   == undefined || mySlider.conf.values[mySlider.values.start] <= node.end  .getFullYear();
+			const start = node.start == undefined || mySlider.conf.values[mySlider.values.end]   >= node.start.getFullYear();
+			return start && end && (node.perm ? nodeFilterValues.perm : nodeFilterValues.temp);
 		};
 		const edgesFilter = (edge) => {
 			return true;
@@ -84,15 +110,26 @@
 		const nodesView = new vis.DataView(nodes, { filter: nodesFilter });
 		const edgesView = new vis.DataView(edges, { filter: edgesFilter });
 
+		checkFilters.forEach((filter) => {
+			nodeFilterValues[filter.id] = filter.value;
+			filter.addEventListener("change", (e) => {
+				const {id, checked} = e.target;
+				nodeFilterValues[id] = checked;
+				nodesView.refresh();
+				console.log(id, checked);
+			});
+		});
+
 		var container = document.getElementById("mynetwork");
 		var data = {
 			nodes: nodesView,
 			edges: edgesView,
 		};
+				
 		var options = {
-		groups: {
-			team: {shape:'circularImage', size:100}
-		}
+			groups: {
+				team: {shape:'circularImage', size:100}
+			}
 		};
 		var network = new vis.Network(container, data, options);
 
@@ -100,11 +137,17 @@
 			var nodeId = network.getNodeAt({x:properties.event.srcEvent.offsetX, y:properties.event.srcEvent.offsetY});
 			var node = nodes.get(nodeId);
 			window.location=node.href;
-		});      
+		});
+		network.on( 'click', function(properties) {
+			var nodeId = network.getNodeAt({x:properties.event.srcEvent.offsetX, y:properties.event.srcEvent.offsetY});
+			var node = nodes.get(nodeId);
+			console.log(node);
+		});
       }
-      
-      fetch("people.csv").then(response => response.text()).then(init);
-      
+            
+   //   fetch(root+"/lastig_data/people.csv").then(response => response.text()).then(init);
+      fetch("/lastig_data/people.csv").then(response => response.text()).then(init);   
+   
     </script>
   </body>
 </html>
