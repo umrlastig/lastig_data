@@ -6,7 +6,7 @@ Guillaume,Astruc,STRUDEL,Doctorant,PhD student,,,2023-10-02,2026-10-01,true,,fal
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,luc-baudoux,2019-10-01,2023-01-30,false,,false
 Wissal,Benjira,MEIG,,,,,2023,2026,true,,false
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,charly-bernard,2019-10-01,,true,/lastig_data/img/charly.png,true
-Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,2016-09-01,2019-10-04,true,,false
+Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,2016-09-01,2019-10-04,false,,false
 Sébastien,Biniek,SCALES,Doctorant,PhD student,/sebastien-biniek,,2016-12-01,2020-09-01,false,/sebastien-biniek/img/biniek.jpg,false
 Emile,Blettery,ACTE,Doctorant,PhD student,/emile-blettery,emile-blettery,2020-08-01,,true,,false
 Amine,Bourki,STRUDEL,Post-doc,PhD student,https://github.com/abourki,,2018-10-01,2020-03-01,false,,false
@@ -88,7 +88,7 @@ Ana-Maria,Olteanu-Raimond,MEIG,DR MTE,Senior researcher,/Ana-Maria-Raimond-homep
 Evelyn,Paiz-Reyes,GEOVIS,Doctorante,PhD student,/evelyn-paiz,evelyn-paiz,2018-10-01,2021-12-08,false,/geovis/faces/paiz-reyes.jpg,false
 Jean-Pierre,Papelard,ACTE,Ingénieur de Recherches,Research engineer,http://recherche.ign.fr/labos/matis/cv.php?nom=Papelard&prenom=Jean-Pierre,,,,true,,true
 Julien,Perret,STRUDEL,DR MTE - Responsable de l'équipe STRUDEL,Senior researcher - head of STRUDEL team,/julien-perret,julienperret,2007-10-01,,true,/julien-perret/img/julien.jpg,true
-Nathan,Piasco,ACTE,Doctorant,PhD student,/np_homepage,nathan-piasco,2016-10-01,2020-01-01,true,/np_homepage/img/piasco.jpg,false
+Nathan,Piasco,ACTE,Doctorant,PhD student,/np_homepage,nathan-piasco,2016-10-01,2020-01-01,false,/np_homepage/img/piasco.jpg,false
 Marc,Pierrot-Deseilligny,ACTE,DR0 MTE,Senior researcher,https://micmac.ensg.eu/index.php/Marc_Pierrot-Deseilligny,marc-pierrot-deseilligny,,,true,/lastig_data/img/marc-pierrot-deseilligny.jpg,true
 Martyna,Poreba,ACTE,CR MTE,Researcher,/martyna-poreba,martyna-poreba,2016-12-01,2020-12-15,false,/lastig_data/img/poreba.jpg,true
 Tristan,Postadjian,STRUDEL,Doctorant,PhD student,,,2015-09-01,2019-06-01,false,https://www.umr-lastig.fr/strudel/assets/images/postadjian.jpg,false
@@ -109,7 +109,7 @@ Raphael,Sulzer,ACTE,Doctorant,PhD student,https://raphaelsulzer.de/,raphael-sulz
 Hermann,Tagné,STRUDEL,Doctorant,PhD student,,hermann-tagne,2018,2023,false,,false
 Christian,Thom,ACTE,DR IGN,Senior researcher,/christian.thom,Christian-thom,,2022-09-01,false,/christian.thom/img/Ch_Thom.png,true
 Guillaume,Touya,SCALES,DR IGN,Senior researcher,/guillaume-touya,guillaume-touya,2004-09-10,,true,/geovis/faces/touya.jpg,true
-Quy Thy,Truong,MEIG,Doctorante,PhD student,/qttruong_homepage,quy-thy-truong,2016-11-02,2020-01-08,true,,false
+Quy Thy,Truong,MEIG,Doctorante,PhD student,/qttruong_homepage,quy-thy-truong,2016-11-02,2020-01-08,false,,false
 Solenn,Tual,STRUDEL,Doctorante,PhD student,/solenn-tual,,2022-10-24,,true,,false
 Bruno,Vallet,ACTE,CR IGN - Responsable de l'équipe ACTE,Senior researcher - head of ACTE team,/bruno-vallet,bruno-vallet,2008-09-01,,true,/bruno-vallet/img/vallet.png,true
 Marie-Dominique,Van Damme,MEIG,Chargée d'études et de recherche,Research engineer,/mdvandamme,marie-dominique-vandamme,2012-05,,true,/mdvandamme/img/mdvandamme.jpg,true

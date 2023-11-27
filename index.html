@@ -28,9 +28,10 @@
   <body>
     <div id="filter">
 	<label>Double-click on teams or people to check their websites. Filters: </label>
+	<input type="checkbox" name="checkFilter" id="team" checked=""><label>Teams</label>
 	<input type="checkbox" name="checkFilter" id="perm" checked=""><label>Permanent</label>
 	<input type="checkbox" name="checkFilter" id="temp" checked=""><label>Temporary</label>
-	<input type="checkbox" name="checkFilter" id="team"><label>Teams</label>
+	<input type="checkbox" name="checkFilter" id="member"><label>Member-only</label>
 	<input type="text" id="dateSlider" />
     </div>
 
@@ -72,7 +73,7 @@
 			const perm = cols[11] == 'true';
 			const label = firstname+'\n'+lastname;
 			const id = HAL || (firstname+'-'+lastname);
-			const node = { id: id, label:label, group:'people', image: photo, opacity:member?1:0.2, href:href, perm: perm, start: start_date, end: end_date};
+			const node = { id: id, label:label, group:'people', image: photo, opacity:member?1:0.2, href:href, perm: perm, member: member, start: start_date, end: end_date};
 			nodes.add(node);
 			edges.add({ from: id, to: team});
 		}
@@ -105,11 +106,12 @@
 		const checkFilters = document.getElementsByName("checkFilter");
 
 		const nodesFilter = (node) => {
+			if (node.group != "people") return nodeFilterValues.team;
 			const end   = node.end   === undefined || mySlider.conf.values[mySlider.values.start] <= node.end  .getFullYear();
 			const start = node.start === undefined || mySlider.conf.values[mySlider.values.end]   >= node.start.getFullYear();
 			return (start && end) && 
 			(node.perm === undefined || (node.perm ? nodeFilterValues.perm : nodeFilterValues.temp)) &&
-			(node.group == "people" || nodeFilterValues.team);
+			(node.member || !nodeFilterValues.member);
 		};
 		const edgesFilter = (edge) => {
 			return true;
