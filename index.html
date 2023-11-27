@@ -27,7 +27,7 @@
   </head>
   <body>
     <div id="filter">
-	<input type="checkbox" name="checkFilter" id="perm" checked=""><label>Permanent</label>
+	<label>Double-click on teams or people to check their websites. Filters: </label><input type="checkbox" name="checkFilter" id="perm" checked=""><label>Permanent</label>
 	<input type="checkbox" name="checkFilter" id="temp" checked=""><label>Temporary</label>
     	<input type="text" id="dateSlider" />
     </div>
@@ -59,7 +59,7 @@
 			if (team == 'SCALES' || team == '') team = '?';
 			const statut = cols[3];
 			const status = cols[4];
-			const href = cols[5].startsWith('http')? cols[5] : (root+cols[5]);
+			const href = (cols[5]==undefined || cols[5].startsWith('http'))? cols[5] : (root+cols[5]);
 			const HAL = cols[6];
 			const start_date = cols[7]!='' ? new Date(cols[7]) : undefined;
 			const end_date = cols[8]!='' ? new Date(cols[8]) : undefined;
@@ -69,7 +69,7 @@
 			const perm = cols[11] == 'true';
 			const label = firstname+'\n'+lastname;
 			const id = HAL || (firstname+'-'+lastname);
-			nodes.add({ id: id, label:label, shape:'circularImage', image: photo, opacity:member?1:0.2, href:href, perm: perm, start: start_date, end: end_date});
+			nodes.add({ id: id, label:label, group:'people', image: photo, opacity:member?1:0.2, href:href, perm: perm, start: start_date, end: end_date});
 			edges.add({ from: id, to: team});
 		}
 
@@ -87,7 +87,7 @@
 		const YYYY = (new Date()).getFullYear();
 		var mySlider = new rSlider({
 			target: '#dateSlider',
-			values: {min: 2000, max: YYYY+3},
+			values: {min: 1995, max: YYYY+5},
 			step: 1,
 			range: true,
 			tooltip: true,
@@ -133,25 +133,27 @@
 				
 		var options = {
 			groups: {
-				team: {shape:'circularImage', size:100}
+				team: {shape:'circularImage', size:60},
+				people: {shape:'circularImage', size:25}
 			}
 		};
 		var network = new vis.Network(container, data, options);
 
 		network.on( 'doubleClick', function(properties) {
-			var nodeId = network.getNodeAt({x:properties.event.srcEvent.offsetX, y:properties.event.srcEvent.offsetY});
-			var node = nodes.get(nodeId);
-			window.location=node.href;
+			const nodeId = network.getNodeAt({x:properties.event.srcEvent.offsetX, y:properties.event.srcEvent.offsetY});
+			const node = nodeId && nodes.get(nodeId);
+			if (node) window.location=node.href;
 		});
 		network.on( 'click', function(properties) {
-			var nodeId = network.getNodeAt({x:properties.event.srcEvent.offsetX, y:properties.event.srcEvent.offsetY});
-			var node = nodes.get(nodeId);
-			console.log(node);
+			const nodeId = network.getNodeAt({x:properties.event.srcEvent.offsetX, y:properties.event.srcEvent.offsetY});
+			const node = nodeId && nodes.get(nodeId);
+			if (node) console.log(node);
 		});
+		nodesView.refresh();
       }
             
       fetch("/lastig_data/people.csv").then(response => response.text()).then(init);
-   
+      
     </script>
   </body>
 </html>
