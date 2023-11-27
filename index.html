@@ -14,18 +14,23 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%	;
-        border: 1px solid lightgray;
+        height: 100%;
         z-index: -1;
+      }
+      #filter {
+        position: absolute;
+        bottom: 0;
+        left: 5%;
+        width: 90%;
       }
     </style>
   </head>
   <body>
     <div id="filter">
-	<input type="checkbox" name="checkFilter" id="perm" checked="">
-	<input type="checkbox" name="checkFilter" id="temp" checked="">
-    	<input type="text" id="sampleSlider" />
-    </p>
+	<input type="checkbox" name="checkFilter" id="perm" checked=""><label>Permanent</label>
+	<input type="checkbox" name="checkFilter" id="temp" checked=""><label>Temporary</label>
+    	<input type="text" id="dateSlider" />
+    </div>
 
     <div id="mynetwork"></div>
 
@@ -58,17 +63,18 @@
 			const HAL = cols[6];
 			const start_date = cols[7]!='' ? new Date(cols[7]) : undefined;
 			const end_date = cols[8]!='' ? new Date(cols[8]) : undefined;
-			const member = cols[9] == 'true';
+			const member = cols[9] == 'true';	
 			cols[10] = cols[10] || default_img;
 			const photo = cols[10].startsWith('http')? cols[10] : (root+cols[10]);
 			const perm = cols[11] == 'true';
-			const id = firstname+'\n'+lastname;
-			nodes.add({ id: id, label:id, shape:'circularImage', image: photo, opacity:member?1:0.2, href:href, perm: perm, start: start_date, end: end_date});
+			const label = firstname+'\n'+lastname;
+			const id = HAL || (firstname+'-'+lastname);
+			nodes.add({ id: id, label:label, shape:'circularImage', image: photo, opacity:member?1:0.2, href:href, perm: perm, start: start_date, end: end_date});
 			edges.add({ from: id, to: team});
 		}
 
-		edges.add({ from: 'Clément\nMallet', to: 'LASTIG'});
-		edges.add({ from: 'Ana-Maria\nOlteanu-Raimond', to: 'LASTIG'});
+		edges.add({ from: 'clement-mallet', to: 'LASTIG'});
+		edges.add({ from: 'ana-maria-olteanu-raimond', to: 'LASTIG'});
 
 		edges.add({ from: 'ACTE', to: 'LASTIG'});
 		edges.add({ from: 'MEIG', to: 'LASTIG'});
@@ -80,7 +86,7 @@
 
 		const YYYY = (new Date()).getFullYear();
 		var mySlider = new rSlider({
-			target: '#sampleSlider',
+			target: '#dateSlider',
 			values: {min: 2000, max: YYYY+3},
 			step: 1,
 			range: true,
@@ -94,15 +100,14 @@
 		});
 		nodeFilterValues.start = mySlider.values.start;
 		nodeFilterValues.end   = mySlider.values.end;
-		console.log(mySlider.value);
 
-		const rangeFilters = document.getElementsByName("rangeFilter");
 		const checkFilters = document.getElementsByName("checkFilter");
 
 		const nodesFilter = (node) => {
 			const end   = node.end   == undefined || mySlider.conf.values[mySlider.values.start] <= node.end  .getFullYear();
 			const start = node.start == undefined || mySlider.conf.values[mySlider.values.end]   >= node.start.getFullYear();
-			return start && end && (node.perm ? nodeFilterValues.perm : nodeFilterValues.temp);
+			return (start && end) && 
+			(node.perm == undefined || (node.perm ? nodeFilterValues.perm : nodeFilterValues.temp));
 		};
 		const edgesFilter = (edge) => {
 			return true;
@@ -145,8 +150,7 @@
 		});
       }
             
-   //   fetch(root+"/lastig_data/people.csv").then(response => response.text()).then(init);
-      fetch("/lastig_data/people.csv").then(response => response.text()).then(init);   
+      fetch("/lastig_data/people.csv").then(response => response.text()).then(init);
    
     </script>
   </body>
