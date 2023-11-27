@@ -65,7 +65,7 @@
 			const end_date = cols[8]!='' ? new Date(cols[8]) : undefined;
 			const member = cols[9] == 'true';	
 			cols[10] = cols[10] || default_img;
-			const photo = cols[10].startsWith('http')? cols[10] : (root+cols[10]);
+			const photo = (cols[10].startsWith('http') || cols[10].startsWith('/lastig_data/') ) ? cols[10] : (root+cols[10]);
 			const perm = cols[11] == 'true';
 			const label = firstname+'\n'+lastname;
 			const id = HAL || (firstname+'-'+lastname);
@@ -149,7 +149,7 @@
 			const node = nodeId && nodes.get(nodeId);
 			if (node) console.log(node);
 		});
-		nodesView.refresh();
+		network.redraw();
       }
             
       fetch("/lastig_data/people.csv").then(response => response.text()).then(init);
