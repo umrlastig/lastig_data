@@ -5,11 +5,11 @@ Nathalie,Abadie,STRUDEL,CR IGN,Researcher,/nathalie-abadie,nathalie-abadie,01/10
 Guillaume,Astruc,STRUDEL,Doctorant,PhD student,,,02/10/2023,,true,,false
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,luc-baudoux,01/10/2019,30/01/2023,false,/lastig_data/img/abstract-user-icon.svg,false
 Yanis,Benidir,STRUDEL,Doctorant,PhD student,,,01/09/2023,,true,/lastig_data/img/abstract-user-icon.svg,false
-Wissal,Benjira,MEIG,,,,,,,true,/lastig_data/img/abstract-user-icon.svg,false
+Wissal,Benjira,MEIG,Doctorante,PhD student,,,,,true,/lastig_data/img/abstract-user-icon.svg,false
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,charly-bernard,01/10/2019,,true,/lastig_data/img/charly.png,true
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,01/09/2016,04/10/2019,true,/lastig_data/img/abstract-user-icon.svg,false
 Camille,Billouard,ACTE,Doctorant,PhD student,,,09/10/2023,,true,/lastig_data/img/abstract-user-icon.svg,false
-Sébastien,Biniek,SCALES,Doctorant,PhD student,/sebastien-biniek,,01/12/2016,01/09/2020,false,/sebastien-biniek/img/biniek.jpg,false
+Sébastien,Biniek,MEIG,Doctorant,PhD student,/sebastien-biniek,,01/12/2016,01/09/2020,false,/sebastien-biniek/img/biniek.jpg,false
 Emile,Blettery,ACTE,Doctorant,PhD student,/emile-blettery,emile-blettery,01/08/2020,,true,/lastig_data/img/abstract-user-icon.svg,false
 Amine,Bourki,STRUDEL,Post-doc,PhD student,https://github.com/abourki,,01/10/2018,01/03/2020,false,/lastig_data/img/abstract-user-icon.svg,false
 Mohamed,Boussaha,ACTE,Doctorant,PhD student,http://recherche.ign.fr/labos/matis/cv.php?prenom=&nom=Boussaha,mohamed-boussaha,09/2016,01/01/2020,true,/lastig_data/img/abstract-user-icon.svg,false
@@ -113,7 +113,7 @@ Raphael,Sulzer,ACTE,Doctorant,PhD student,/raphael-sulzer,raphael-sulzer,2018,17
 Hermann,Tagné,STRUDEL,Doctorant,PhD student,,hermann-tagne,2018,29/09/2023,false,/lastig_data/img/abstract-user-icon.svg,false
 Florent,Thébault,STRUDEL,Doctorant,PhD student,,,01/05/2022,,true,/lastig_data/img/abstract-user-icon.svg,false
 Christian,Thom,ACTE,DR IGN,Senior researcher,/christian.thom,Christian-thom,,01/09/2022,false,/christian.thom/img/Ch_Thom.png,true
-Guillaume,Touya,SCALES,DR IGN,Senior researcher,/guillaume-touya,guillaume-touya,10/09/2004,,true,/geovis/faces/touya.jpg,true
+Guillaume,Touya,MEIG,DR IGN,Senior researcher,/guillaume-touya,guillaume-touya,10/09/2004,,true,/geovis/faces/touya.jpg,true
 Quy Thy,Truong,MEIG,Doctorante,PhD student,/qttruong_homepage,quy-thy-truong,02/11/2016,08/01/2020,true,/lastig_data/img/abstract-user-icon.svg,false
 Solenn,Tual,STRUDEL,Doctorante,PhD student,/solenn-tual,,24/10/2022,,true,/lastig_data/img/abstract-user-icon.svg,false
 Bruno,Vallet,ACTE,CR IGN - Responsable de l'équipe ACTE,Senior researcher - head of ACTE team,/bruno-vallet,bruno-vallet,01/09/2008,,true,/bruno-vallet/img/vallet.png,true
