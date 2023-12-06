@@ -53,7 +53,7 @@ Dimitri,Gominski,ACTE,Doctorant,PhD student,,,2018-01-22,2021-11-09,false,,false
 Nicolas,Gonthier,STRUDEL,Ingénieur R&D,R&D engineer,https://ngonthier.github.io/,gonthier.nicolas,2022-09-01,,true,https://ngonthier.github.io/images/avatar.jpg,true
 Valérie,Gouet-Brunet,ACTE,DR1 MTE,Senior Researcher,/vgouet,valerie-gouet-brunet,2012-10-01,,true,/vgouet/img/photo_valerie.jpg,true
 Malika,Grim-Yefsah,MEIG,MCF,Lecturer and Researcher,/malika-grim-yefsah,grimyefsah,2017-04-01,,true,/malika-grim-yefsah/img/mgrim.jpg,true
-Maieul,Gruget,GEOVIS,Doctorant,PhD student,/maieul-gruget,maieul-gruget,2021-09-01,,true,/maieul-gruget/img/gruget.jpg,false
+Maieul,Gruget,GEOVIS,Doctorant,PhD student,/maieul-gruget,maieul-gruget,2021-09-01,,true,,false
 Grégoire,Grzeczkowicz,ACTE,Doctorant,PhD student,/gregoire-grzeczkowicz,ggrzeczkowicz,2021-04-14,2024-08-31,true,/gregoire-grzeczkowicz/img/grzeczkowicz.jpg,false
 Sami,Guembour,MEIG,Doctorant,PhD student,/Sami-Guembour,,2022-09-01,,true,/Sami-Guembour/img/Sami.png,false
 Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,stephane-guinard,2017-10-01,2020-03-01,false,/sguinard_homepage/img/guinard.jpg,false
@@ -110,7 +110,6 @@ Imane,Salhi,ACTE,Doctorant,PhD student,,,2017,2020,false,,false
 Ali,Seba,ACTE,Post-doc,Post-doc,,,2017,2019-06-01,false,,false
 Jean-Philippe,Souchon,ACTE,Ingénieur de Recherches,Research engineer,http://loemi.recherche.ign.fr/cv.php?prenom=Jean-Philippe&nom=SOUCHON,,,,true,,true
 Christian,Staron,ACTE,Ingénieur,Engineer,,,2023-11-01,,true,,false
-Raphael,Sulzer,ACTE,Doctorant,PhD student,/raphael-sulzer,raphael-sulzer,2018,2022-10-17,false,/raphael-sulzer/img/me.png,false
 Raphael,Sulzer,ACTE,Doctorant,PhD student,https://raphaelsulzer.de/,raphael-sulzer,2018,2022-10-17,false,https://raphaelsulzer.de/img/me.png,false
 Hermann,Tagné,STRUDEL,Doctorant,PhD student,,hermann-tagne,2018,2023-09-29,false,,false
 Florent,Thébault,STRUDEL,Doctorant,PhD student,,,2022-05-01,,true,,false
