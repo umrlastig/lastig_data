@@ -6,9 +6,9 @@ Guillaume,Astruc,STRUDEL,Doctorant,PhD student,,,2023-10-02,,true,,false
 Nicolas,Audebert,STRUDEL,CPJ,Researcher,https://nicolas.audebert.at,nicolas-audebert,2023-12-01,,true,,false
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,luc-baudoux,2019-10-01,2023-01-30,false,,false
 Yanis,Benidir,STRUDEL,Doctorant,PhD student,,,2023-09-01,,true,,false
-Wissal,Benjira,MEIG,Doctorante,PhD student,,,,,true,,false
+Wissal,Benjira,MEIG,Doctorante,PhD student,,,2023,,true,,false
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,charly-bernard,2019-10-01,,true,/lastig_data/img/charly.png,true
-Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,2016-09-01,2019-10-04,true,,false
+Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,2016-09-01,2019-10-04,false,,false
 Camille,Billouard,ACTE,Doctorant,PhD student,,,2023-10-09,,true,,false
 Sébastien,Biniek,MEIG,Doctorant,PhD student,/sebastien-biniek,,2016-12-01,2020-09-01,false,/sebastien-biniek/img/biniek.jpg,false
 Emile,Blettery,ACTE,Doctorant,PhD student,/emile-blettery,emile-blettery,2020-08-01,,true,,false
@@ -17,7 +17,7 @@ Mohamed,Boussaha,ACTE,Doctorant,PhD student,http://recherche.ign.fr/labos/matis/
 Mickaël,Brasebin,STRUDEL,Chargé de Recherches,Researcher,https://mbrasebin.github.io,,2007-10-01,2018-12-18,false,https://mbrasebin.github.io/img/brasebin.jpg,true
 Mathieu,Brédif,GEOVIS,CR IGN,Researcher,/mathieu-bredif,mathieu-bredif,2005-09-01,,true,/geovis/faces/bredif.jpg,true
 Raphaël,Bres,MEIG,Doctorant,PhD student,,,2021-09-01,,true,,false
-Bénédicte,Bucher,MEIG,Directrice de recherche IGN,Senior researcher,/benedicte-bucher,benedicte-bucher,,,true,/benedicte-bucher/img/Bucher.jpg,true
+Bénédicte,Bucher,MEIG,Directrice de recherche IGN,Senior researcher,/benedicte-bucher,benedicte-bucher,1998,,true,/benedicte-bucher/img/Bucher.jpg,true
 Mattia,Bunel,MEIG,Doctorant,PhD student,/mattia-bunel,mattia-bunel,2017-10-01,2021-02-19,false,,false
 Laurent,Caraffa,ACTE,CR MTE,Researcher,/laurent-caraffa,laurent-caraffa,2014,,true,/laurent-caraffa/img/laurent.jpg,true
 Mohamed,Chachoua,MEIG,Enseignant-Chercheur,Lecturer,/mohamed-chachoua,,2019-01-01,,true,,true
@@ -25,7 +25,7 @@ Adnane,Chakir,ACTE,Doctorant,PhD student,/adnane-chakir,,2020-10-01,,true,,false
 Paul,Chapron,STRUDEL,CR MTE,Researcher,/paul-chapron,paul-chapron,2017-12-01,,true,/paul-chapron/img/photo_paulchapron.jpg,true
 Yizi,Chen,STRUDEL,Doctorant,PhD student,/yizi-chen,yizi-chen,2019-12-19,2023-03-31,false,/lastig_data/img/yizi.jpg,false
 Sidonie,Christophe,GEOVIS,DR2 MTE,Senior researcher,/sidonie-christophe,sidonie-christophe,2006-09-01,,true,/sidonie-christophe/img/sido.png,true
-Emmanuel,Cledat,ACTE,Enseignant Chercheur,Lecturer,,,,,true,,true
+Emmanuel,Cledat,ACTE,Enseignant Chercheur,Lecturer,,,2020-09,,true,,true
 Maxime,Colomb,STRUDEL,Doctorant,PhD student,http://maxime-colomb.eu/,maxime-colomb,2015-10-01,2019-09-27,false,/lastig_data/img/colomb.jpg,false
 Benoît,Costes,STRUDEL,Chercheur,Researcher,http://recherche.ign.fr/labos/cogit/cv.php?nom=Costes,,2010-10-01,2019-07-14,false,/lastig_data/img/costes.jpg,true
 Azelle,Courtial,MEIG,Post-doc,Post-doc,/azelle-courtial,azelle-courtial,2019-10-01,,true,/azelle-courtial/img/AzelleCourtialCarr%C3%A9e.jpg,false
@@ -36,11 +36,11 @@ Arthur,Delorme,ACTE,Doctorant,PhD student,https://www.ipgp.fr/~delorme/,arthur-d
 Alexandre,Devaux,GEOVIS,Ingénieur,Research engineer,/adevaux_homepage,alexandredevaux,2008-07-01,2020-12-31,false,/geovis/faces/devaux.jpg,true
 Catherine,Dominguès,MEIG,CR IGN,Senior researcher,/cdomingues_homepage,catherine-domingues,2005-01-01,,true,/cdomingues_homepage/img/Domingues2020.png,true
 Chuanming,Dong,MEIG,Doctorant,PhD student,/chuanming-dong,chuanming-dong,2019-07-01,2023-11-07,false,,false
-Cécile,Duchêne,MEIG,Enseignant Chercheur,Lecturer,/cecile-duchene,cecile-duchene,,,true,/cecile-duchene/img/cduchene3.png,true
+Cécile,Duchêne,MEIG,Enseignant Chercheur,Lecturer,/cecile-duchene,cecile-duchene,1997,,true,/cecile-duchene/img/cduchene3.png,true
 Bertrand,Duménieu,STRUDEL,Doctorant,PhD student,http://crh.ehess.fr/index.php?5206,,2010-04-06,2016-12-01,false,,false
 Bertrand,Dumenieu,STRUDEL,,,,,,,true,,false
 Oussama,Ennafii,STRUDEL,Doctorant,PhD student,/oennafii_homepage,Oussama-ennafii,2016-09-01,2020-09-01,false,/oennafii_homepage/img/ennafii.jpg,false
-Imane,Fikri,ACTE,Doctorant,PhD student,,,,2020-10-01,false,,false
+Imane,Fikri,ACTE,Doctorant,PhD student,,,2018-10,2020-10-01,false,,false
 Christelle,Fleutry,,,,,,,,true,,false
 Pierre-Louis,Frison,ACTE,MCF HDR,Assistant Professor,/plf_homepage,,,,true,/lastig_data/img/frison.jpg,true
 Bénédicte,Fruneau,ACTE,MCF HDR,Assistant Professor,/benedicte-fruneau,benedicte-fruneau,,,true,,true
@@ -83,42 +83,43 @@ Yann,Méneroux,MEIG,CR IGN,Researcher,,,2013-10-01,2023-05-01,false,,true
 Samuel,Mermet,STRUDEL,Ingénieur,engineer,/samuel-mermet,samuel-mermet,2021-09-01,,true,/samuel-mermet/img/smermet.jpg,true
 Christophe,Meynard,ACTE,Ingénieur de Recherches,Research engineer,http://loemi.recherche.ign.fr/cv.php?prenom=Christophe&nom=MEYNARD,christophe-meynard,,,true,,true
 Alexandre,Mielniczek,GEOVIS,Doctorant,PhD student,/alexandre-mielniczek,alexandre-mielniczek,2022-12-01,,true,/alexandre-mielniczek/img/amielniczek.png,false
-Jean-Michaël,Muller,ACTE,Ingénieur de Recherches,Research engineer,/jmmuller_lastig_homepage,,,,true,/jmmuller_lastig_homepage/img/muller.png,true
-Sébastien,Mustière,MEIG,Enseignant Chercheur,Lecturer,,,,2023-04-30,false,,true
+Jean-Michaël,Muller,ACTE,Ingénieur de Recherches,Research engineer,/jmmuller_lastig_homepage,,2012,,true,,true
+Sébastien,Mustière,MEIG,Enseignant Chercheur,Lecturer,,,1998,2023-04-30,false,,true
 Mouhamadou,Ndim,MEIG,Ingénieur,Engineer,/mndim_homepage,mouhamadou-ndim,2023-02-13,,true,/mndim_homepage/ndim.jpg,false
-Quoc,Nguyen,ACTE,Ingénieur de Recherches,Research engineer,/qdnguyen,,,2020-10-15,false,,false
+Quoc,Nguyen,ACTE,Ingénieur de Recherches,Research engineer,/qdnguyen,,2013,2020-10-15,false,,false
 Alexane,Nghien,GEOVIS,Doctorante,PhD student,/alexane-nghien,alexane-nghien,2023-11-07,,true,,true
 Ana-Maria,Olteanu-Raimond,MEIG,DR MTE,Senior researcher,/Ana-Maria-Raimond-homepage,ana-maria-olteanu-raimond,2013-01-01,,true,/Ana-Maria-Raimond-homepage/img/raimond.png,true
 Evelyn,Paiz-Reyes,GEOVIS,Doctorante,PhD student,/evelyn-paiz,evelyn-paiz,2018-10-01,2021-12-08,false,/geovis/faces/paiz-reyes.jpg,false
 Jean-Pierre,Papelard,ACTE,Ingénieur de Recherches,Research engineer,http://recherche.ign.fr/labos/matis/cv.php?nom=Papelard&prenom=Jean-Pierre,,,,true,,true
 Julien,Perret,STRUDEL,DR MTE - Responsable de l'équipe STRUDEL,Senior researcher - head of STRUDEL team,/julien-perret,julienperret,2007-10-01,,true,/julien-perret/img/julien.jpg,true
-Nathan,Piasco,ACTE,Doctorant,PhD student,/np_homepage,nathan-piasco,2016-10-01,2020-01-01,true,/np_homepage/img/piasco.jpg,false
+Nathan,Piasco,ACTE,Doctorant,PhD student,/np_homepage,nathan-piasco,2016-10-01,2020-01-01,false,/np_homepage/img/piasco.jpg,false
 Marc,Pierrot-Deseilligny,ACTE,DR0 MTE,Senior researcher,https://micmac.ensg.eu/index.php/Marc_Pierrot-Deseilligny,marc-pierrot-deseilligny,,,true,https://micmac.ensg.eu/images/thumb/e/e7/MPD-Bambou.jpg/224px-MPD-Bambou.jpg,true
 Martyna,Poreba,ACTE,CR MTE,Researcher,/martyna-poreba,martyna-poreba,2016-12-01,2020-12-15,false,/lastig_data/img/poreba.jpg,true
 Tristan,Postadjian,STRUDEL,Doctorant,PhD student,,,2015-09-01,2019-06-01,false,https://www.umr-lastig.fr/strudel/assets/images/postadjian.jpg,false
-Quentin,Potié,GEOVIS,Doctorant,PhD student,,,,,true,,false
+Quentin,Potié,GEOVIS,Doctorant,PhD student,,,2021-09,,true,,false
 Marc,Poupée,STRUDEL,Enseignant-Chercheur,Lecturer,,,2016-10-01,,true,/lastig_data/img/poupee.jpg,true
 Juste,Raimbault,STRUDEL,CR MTE,Research Fellow,/juste-raimbault,juste-raimbault,2022-01-01,,true,,true
 Helen,Rawsthorne,STRUDEL,Doctorant,PhD student,/helen-rawsthorne,helen-mair-rawsthorne,2020-11-03,,true,/helen-rawsthorne/img/HMR.jpeg,false
 Damien,Robert,STRUDEL,Doctorant,PhD student,/damien-robert,damien-robert-ai,2020-09-01,,true,/damien-robert/img/damien.png,false
-Pierre,Rolin,ACTE,Post-doc,Post-doc,"http://recherche.ign.fr/labos/matis/cv.php?nom=Rolin&prenom=Pierre""",,,2020-01-01,false,,false
+Pierre,Rolin,ACTE,Post-doc,Post-doc,,,2017,2020-01-01,false,,false
 Jean-Paul,Rudant,ACTE,Pr émérite,Professor emeritus,/Jean-Paul-Rudant,,,,true,/Jean-Paul-Rudant/img/Jean-Paul-Rudant.jpg,true
 Ewelina,Rupnik,ACTE,CR MTE,Researcher,/ewelina-rupnik,ewelina-rupnik,2017-11-01,,true,/ewelina-rupnik/img/er.png,true
 Qasem,Safariallahkheili,GEOVIS,Doctorant,PhD student,/Safariallahkheili_Homepage,,2018-12-01,2020-11-30,false,/geovis/faces/safariallahkheili.jpg,false
 Vivien,Sainte-Fare-Garnot,STRUDEL,Doctorant,PhD student,/vivien-sainte-fare-garnot,vivien-sainte-fare-garnot,2018-10-01,2022-01-07,false,/vivien-sainte-fare-garnot/img/profpic.jpeg,false
-Imane,Salhi,ACTE,Doctorant,PhD student,,,,,false,,false
-Ali,Seba,ACTE,Post-doc,Post-doc,http://recherche.ign.fr/labos/matis/cv.php?nom=Seba&prenom=Ali,,,2019-06-01,false,,false
+Imane,Salhi,ACTE,Doctorant,PhD student,,,2017,2020,false,,false
+Ali,Seba,ACTE,Post-doc,Post-doc,,,2017,2019-06-01,false,,false
 Jean-Philippe,Souchon,ACTE,Ingénieur de Recherches,Research engineer,http://loemi.recherche.ign.fr/cv.php?prenom=Jean-Philippe&nom=SOUCHON,,,,true,,true
 Christian,Staron,ACTE,Ingénieur,Engineer,,,2023-11-01,,true,,false
 Raphael,Sulzer,ACTE,Doctorant,PhD student,/raphael-sulzer,raphael-sulzer,2018,2022-10-17,false,/raphael-sulzer/img/me.png,false
+Raphael,Sulzer,ACTE,Doctorant,PhD student,https://raphaelsulzer.de/,raphael-sulzer,2018,2022-10-17,false,https://raphaelsulzer.de/img/me.png,false
 Hermann,Tagné,STRUDEL,Doctorant,PhD student,,hermann-tagne,2018,2023-09-29,false,,false
 Florent,Thébault,STRUDEL,Doctorant,PhD student,,,2022-05-01,,true,,false
 Christian,Thom,ACTE,DR IGN,Senior researcher,/christian.thom,Christian-thom,,2022-09-01,false,/christian.thom/img/Ch_Thom.png,true
 Guillaume,Touya,MEIG,DR IGN,Senior researcher,/guillaume-touya,guillaume-touya,2004-09-10,,true,/geovis/faces/touya.jpg,true
-Quy Thy,Truong,MEIG,Doctorante,PhD student,/qttruong_homepage,quy-thy-truong,2016-11-02,2020-01-08,true,,false
+Quy Thy,Truong,MEIG,Doctorante,PhD student,/qttruong_homepage,quy-thy-truong,2016-11-02,2020-01-08,false,,false
 Solenn,Tual,STRUDEL,Doctorante,PhD student,/solenn-tual,,2022-10-24,,true,,false
 Bruno,Vallet,ACTE,CR IGN - Responsable de l'équipe ACTE,Senior researcher - head of ACTE team,/bruno-vallet,bruno-vallet,2008-09-01,,true,/bruno-vallet/img/vallet.png,true
-Marie-Dominique,Van Damme,MEIG,Chargée d'études et de recherche,Research engineer,/mdvandamme,marie-dominique-vandamme,,,true,/mdvandamme/img/mdvandamme.jpg,true
+Marie-Dominique,Van Damme,MEIG,Chargée d'études et de recherche,Research engineer,/mdvandamme,marie-dominique-vandamme,2012-05,,true,/mdvandamme/img/mdvandamme.jpg,true
 Charles,Villard,ACTE,Doctorant,PhD student,/charles-villard,,2020-11-20,,true,,false
 Laura,Wenclik,GEOVIS,Ingénieure,Engineer,/laura-wenclik,laura-wenclik,2022-09-01,,true,/laura-wenclik/img/laura_wenclik.JPEG,true
 Teng,Wu,ACTE,Chercheur,Researcher,https://whuwuteng.github.io,,2023-11-11,,true,https://whuwuteng.github.io/images/tengwu.png,true
