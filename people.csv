@@ -11,8 +11,8 @@ Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,charly-
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,2016-09-01,2019-10-04,false,,false
 Camille,Billouard,ACTE,Doctorant,PhD student,,,2023-10-09,,true,,false
 Sébastien,Biniek,MEIG,Doctorant,PhD student,/sebastien-biniek,,2016-12-01,2020-09-01,false,/sebastien-biniek/img/biniek.jpg,false
-Emile,Blettery,ACTE,Doctorant,PhD student,/emile-blettery,emile-blettery,2020-08-01,2024-08-01,false,,false
-Amine,Bourki,STRUDEL,Post-doc,PhD student,https://github.com/abourki,,2018-10-01,2020-03-01,false,,false
+Emile,Blettery,ACTE,Post-doc,Post-doc,/emile-blettery,emile-blettery,2023-08-01,2025-03-01,true,,false
+Amine,Bourki,STRUDEL,Post-doc,Post-doc,https://github.com/abourki,,2018-10-01,2020-03-01,false,,false
 Mohamed,Boussaha,ACTE,Doctorant,PhD student,https://scholar.google.com/citations?user=D_ktS5EAAAAJ&hl=fr,mohamed-boussaha,2016-09,2020-01-01,false,,false
 Mickaël,Brasebin,STRUDEL,Chargé de Recherches,Researcher,https://mbrasebin.github.io,,2007-10-01,2018-12-18,false,https://mbrasebin.github.io/img/brasebin.jpg,true
 Mathieu,Brédif,GEOVIS,CR IGN,Researcher,/mathieu-bredif,mathieu-bredif,2005-09-01,,true,/geovis/faces/bredif.jpg,true
@@ -58,7 +58,7 @@ Maieul,Gruget,GEOVIS,Doctorant,PhD student,/maieul-gruget,maieul-gruget,2021-09-
 Grégoire,Grzeczkowicz,ACTE,Doctorant,PhD student,/gregoire-grzeczkowicz,ggrzeczkowicz,2021-04-14,2024-08-31,true,/gregoire-grzeczkowicz/img/grzeczkowicz.jpg,false
 Sami,Guembour,MEIG,Doctorant,PhD student,/Sami-Guembour,,2022-09-01,,true,/Sami-Guembour/img/Sami.png,false
 Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,stephane-guinard,2017-10-01,2020-03-01,false,/sguinard_homepage/img/guinard.jpg,false
-Melvin,Hersent,STRUDEL,Ingénieur,Engineer,/melvin-hersent,melvin-hersent,2021-11-02,2023-11-30,false,,false
+Melvin,Hersent,GEOVIS,Doctorant,PhD student,/melvin-hersent,melvin-hersent,2024-01-01,2027-01-01,true,,false
 Alexandre,Hippert-Ferrer,STRUDEL,Enseignant-Chercheur,Lecturer,https://ahippert.github.io/,alexandre-hippert-ferrer,2022-09-01,,true,,true
 Florence,Jacquinod,GEOVIS,Enseignant-Chercheur,Lecturer,/florence-jacquinod,florence-jacquinod,2019-01-01,,true,/florence-jacquinod/img/Florence.png,true
 Markie,Jiang,GEOVIS,Doctorante,PhD student,/markie-jiang,,2020-11-02,2023-11-01,true,/geovis/faces/jiang.png,false
