@@ -8,7 +8,7 @@ Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,luc-baudoux,2019-10-01,20
 Yanis,Benidir,STRUDEL,Doctorant,PhD student,,,2023-09-01,,true,,false
 Wissal,Benjira,MEIG,Doctorante,PhD student,,,2023,,true,,false
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,charly-bernard,2019-10-01,,true,/lastig_data/img/charly.png,true
-Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,2016-09-01,2019-10-04,false,,false
+Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,2016-09-01,2019-10-04,false,/geovis/faces/pierre-biasutti.jpg,false
 Camille,Billouard,ACTE,Doctorant,PhD student,,,2023-10-09,,true,,false
 Sébastien,Biniek,MEIG,Doctorant,PhD student,/sebastien-biniek,,2016-12-01,2020-09-01,false,/sebastien-biniek/img/biniek.jpg,false
 Emile,Blettery,ACTE,Post-doc,Post-doc,/emile-blettery,emile-blettery,2023-08-01,2025-03-01,true,,false
@@ -54,11 +54,11 @@ Dimitri,Gominski,ACTE,Doctorant,PhD student,,,2018-01-22,2021-11-09,false,,false
 Nicolas,Gonthier,STRUDEL,Chercheur,Researcher,https://ngonthier.github.io/,gonthier.nicolas,2022-09-01,,true,https://ngonthier.github.io/images/avatar.jpg,true
 Valérie,Gouet-Brunet,ACTE,DR1 MTE,Senior Researcher,/vgouet,valerie-gouet-brunet,2012-10-01,,true,/vgouet/img/photo_valerie.jpg,true
 Malika,Grim-Yefsah,MEIG,MCF,Lecturer and Researcher,/malika-grim-yefsah,grimyefsah,2017-04-01,,true,/malika-grim-yefsah/img/mgrim.jpg,true
-Maieul,Gruget,GEOVIS,Doctorant,PhD student,/maieul-gruget,maieul-gruget,2021-09-01,,true,,false
+Maieul,Gruget,GEOVIS,Doctorant,PhD student,/maieul-gruget,maieul-gruget,2021-09-01,,true,/geovis/faces/gruget.jpg,false
 Grégoire,Grzeczkowicz,ACTE,Doctorant,PhD student,/gregoire-grzeczkowicz,ggrzeczkowicz,2021-04-14,2024-08-31,true,/gregoire-grzeczkowicz/img/grzeczkowicz.jpg,false
 Sami,Guembour,MEIG,Doctorant,PhD student,/Sami-Guembour,,2022-09-01,,true,/Sami-Guembour/img/Sami.png,false
 Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,stephane-guinard,2017-10-01,2020-03-01,false,/sguinard_homepage/img/guinard.jpg,false
-Melvin,Hersent,GEOVIS,Doctorant,PhD student,/melvin-hersent,melvin-hersent,2024-01-01,2027-01-01,true,,false
+Melvin,Hersent,GEOVIS,Doctorant,PhD student,/melvin-hersent,melvin-hersent,2024-01-01,2027-01-01,true,/geovis/faces/melvin-hersent.jpg,false
 Alexandre,Hippert-Ferrer,STRUDEL,Enseignant-Chercheur,Lecturer,https://ahippert.github.io/,alexandre-hippert-ferrer,2022-09-01,,true,,true
 Florence,Jacquinod,GEOVIS,Enseignant-Chercheur,Lecturer,/florence-jacquinod,florence-jacquinod,2019-01-01,,true,/florence-jacquinod/img/Florence.png,true
 Markie,Jiang,GEOVIS,Doctorante,PhD student,/markie-jiang,,2020-11-02,2023-11-01,true,/geovis/faces/jiang.png,false
@@ -72,7 +72,7 @@ Arnaud,Le Bris,STRUDEL,Enseignant-Chercheur,Lecturer,/arnaud-le-bris,arnaud-le-b
 Arnaud,Le Guilcher,MEIG,CR - Responsable de l'équipe MEIG,Researcher - head of MEIG team,/aleguilcher_homepage,arnaud-le-guilcher,2013-10-01,,true,/aleguilcher_homepage/img/aleguilcher.png,true
 Manchun,Lei,ACTE,CR MTE,Researcher,/manchun-lei,manchun-lei,2016-11-01,,true,/manchun-lei/img/lei.jpg,true
 Lâmân,Lelégard,GEOVIS,Ingénieur,Research engineer,/laman-lelegard,laman-lelegard,2007-09-01,,true,/geovis/faces/lelegard.jpg,true
-Bérénice,Le Mao,GEOVIS,Doctorante,PhD student,/Berenice-Le-Mao,,2022-09-01,,true,,false
+Bérénice,Le Mao,GEOVIS,Doctorante,PhD student,/Berenice-Le-Mao,,2022-09-01,,true,/Berenice-Le-Mao/img/berenice.jpg,false
 Maria-Jesus,Lobo,GEOVIS,CR MTE - Responsable de l'équipe GEOVIS,Researcher - head of GEOVIS team,/maria-jesus-lobo,maria-jesus-lobo,2019-12-01,,true,https://i1.rgstatic.net/ii/profile.image/434418486648834-1480584846865_Q512/Maria_Jesus_Lobo.jpg,true
 Romain,Loiseau,STRUDEL,Doctorant,PhD student,/romain-loiseau,romain-loiseau,2020-09-01,2023-09-01,false,/romain-loiseau/img/loiseau.jpg,false
 Imran,Lokhat,GEOVIS,Développeur,IT scientist,/imran-lokhat,,2014-10-01,2021-03-15,false,/geovis/faces/lokhat.jpg,true
@@ -88,7 +88,7 @@ Jean-Michaël,Muller,ACTE,Ingénieur de Recherches,Research engineer,/jmmuller_l
 Sébastien,Mustière,MEIG,Enseignant Chercheur,Lecturer,,,1998,2023-04-30,false,,true
 Mouhamadou,Ndim,MEIG,Ingénieur,Engineer,/mouhamadou-ndim,mouhamadou-ndim,2023-02-13,,true,/mouhamadou-ndim/img/ndim.jpg,false
 Quoc,Nguyen,ACTE,Ingénieur de Recherches,Research engineer,/qdnguyen,,2013,2020-10-15,false,,false
-Alexane,Nghien,GEOVIS,Doctorante,PhD student,/alexane-nghien,alexane-nghien,2023-11-07,,true,,true
+Alexane,Nghien,GEOVIS,Doctorante,PhD student,/alexane-nghien,alexane-nghien,2023-11-07,,true,/geovis/faces/alexane-nghien.jpg,true
 Ana-Maria,Olteanu-Raimond,MEIG,DR MTE,Senior researcher,/Ana-Maria-Raimond-homepage,ana-maria-olteanu-raimond,2013-01-01,,true,/Ana-Maria-Raimond-homepage/img/raimond.png,true
 Evelyn,Paiz-Reyes,GEOVIS,Doctorante,PhD student,/evelyn-paiz,evelyn-paiz,2018-10-01,2021-12-08,false,/geovis/faces/paiz-reyes.jpg,false
 Jean-Pierre,Papelard,ACTE,Ingénieur de Recherches,Research engineer,http://recherche.ign.fr/labos/matis/cv.php?nom=Papelard&prenom=Jean-Pierre,,,,true,,true
