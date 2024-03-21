@@ -54,7 +54,7 @@ Dimitri,Gominski,ACTE,Doctorant,PhD student,,,2018-01-22,2021-11-09,false,,false
 Nicolas,Gonthier,STRUDEL,Chercheur,Researcher,https://ngonthier.github.io/,gonthier.nicolas,2022-09-01,,true,https://ngonthier.github.io/images/avatar.jpg,true
 Valérie,Gouet-Brunet,ACTE,DR1 MTE,Senior Researcher,/vgouet,valerie-gouet-brunet,2012-10-01,,true,/vgouet/img/photo_valerie.jpg,true
 Malika,Grim-Yefsah,MEIG,MCF,Lecturer and Researcher,/malika-grim-yefsah,grimyefsah,2017-04-01,,true,/malika-grim-yefsah/img/mgrim.jpg,true
-Maieul,Gruget,GEOVIS,Doctorant,PhD student,/maieul-gruget,maieul-gruget,2021-09-01,,true,/geovis/faces/gruget.jpg,false
+Maieul,Gruget,GEOVIS,Doctorant,PhD student,/maieul-gruget,maieul-gruget,2021-09-01,,true,/geovis/faces/maieul-gruget.jpg,false
 Grégoire,Grzeczkowicz,ACTE,Doctorant,PhD student,/gregoire-grzeczkowicz,ggrzeczkowicz,2021-04-14,2024-08-31,true,/gregoire-grzeczkowicz/img/grzeczkowicz.jpg,false
 Sami,Guembour,MEIG,Doctorant,PhD student,/Sami-Guembour,,2022-09-01,,true,/Sami-Guembour/img/Sami.png,false
 Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,stephane-guinard,2017-10-01,2020-03-01,false,/sguinard_homepage/img/guinard.jpg,false
@@ -75,7 +75,7 @@ Lâmân,Lelégard,GEOVIS,Ingénieur,Research engineer,/laman-lelegard,laman-lele
 Bérénice,Le Mao,GEOVIS,Doctorante,PhD student,/Berenice-Le-Mao,,2022-09-01,,true,/Berenice-Le-Mao/img/berenice.jpg,false
 Maria-Jesus,Lobo,GEOVIS,CR MTE - Responsable de l'équipe GEOVIS,Researcher - head of GEOVIS team,/maria-jesus-lobo,maria-jesus-lobo,2019-12-01,,true,https://i1.rgstatic.net/ii/profile.image/434418486648834-1480584846865_Q512/Maria_Jesus_Lobo.jpg,true
 Romain,Loiseau,STRUDEL,Doctorant,PhD student,/romain-loiseau,romain-loiseau,2020-09-01,2023-09-01,false,/romain-loiseau/img/loiseau.jpg,false
-Imran,Lokhat,GEOVIS,Développeur,IT scientist,/imran-lokhat,,2014-10-01,2021-03-15,false,/geovis/faces/lokhat.jpg,true
+Imran,Lokhat,GEOVIS,Développeur,IT scientist,/imran-lokhat,,2014-10-01,2021-03-15,false,,true
 Ibrahim,Maidaneh Abdi,MEIG,Doctorant,PhD student,,,2019-10-01,2022-12-01,false,,false
 Clément,Mallet,STRUDEL,DR IGN,Senior researcher,/clement-mallet,clement-mallet,2005-10-01,,true,/clement-mallet/img/mallet.jpg,true
 Yanis,Marchand,ACTE,Doctorant,PhD student,/yanis-marchand,,2019-10-01,2022-11-28,false,/yanis-marchand/img/yanis.png,false
