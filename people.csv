@@ -1,7 +1,7 @@
 firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo,perm
 Saif,Aati,ACTE,Doctorant,PhD student,/saif-aati,,2020-07-01,2023-03-31,false,,false
-Mohamed,Ali-Chebbi,ACTE,Doctorant,PhD student,/mohamed-alichebbi,,2020-07-01,,true,,false
 Nathalie,Abadie,STRUDEL,CR IGN,Researcher,/nathalie-abadie,nathalie-abadie,2005-10-01,,true,/nathalie-abadie/img/abadie.png,true
+Mohamed,Ali-Chebbi,ACTE,Doctorant,PhD student,/mohamed-alichebbi,,2020-07-01,,true,,false
 Guillaume,Astruc,STRUDEL,Doctorant,PhD student,,,2023-10-02,,true,,false
 Nicolas,Audebert,STRUDEL,CPJ,Researcher,https://nicolas.audebert.at,nicolas-audebert,2023-12-01,,true,,true
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,luc-baudoux,2019-10-01,2023-01-30,false,,false
@@ -14,7 +14,8 @@ Sébastien,Biniek,MEIG,Doctorant,PhD student,/sebastien-biniek,,2016-12-01,2020-
 Emile,Blettery,ACTE,Post-doc,Post-doc,/emile-blettery,emile-blettery,2023-08-01,2025-03-01,true,,false
 Amine,Bourki,STRUDEL,Post-doc,Post-doc,https://github.com/abourki,,2018-10-01,2020-03-01,false,,false
 Mohamed,Boussaha,ACTE,Doctorant,PhD student,https://scholar.google.com/citations?user=D_ktS5EAAAAJ&hl=fr,mohamed-boussaha,2016-09,2020-01-01,false,,false
-Mickaël,Brasebin,STRUDEL,Chargé de Recherches,Researcher,https://mbrasebin.github.io,,2007-10-01,2018-12-18,false,https://mbrasebin.github.io/img/brasebin.jpg,true
+Amine,Boussik,ACTE,Post-doc,Post-doc,,,2024,,true,,false
+PMickaël,Brasebin,STRUDEL,Chargé de Recherches,Researcher,https://mbrasebin.github.io,,2007-10-01,2018-12-18,false,https://mbrasebin.github.io/img/brasebin.jpg,true
 Mathieu,Brédif,GEOVIS,CR IGN,Researcher,/mathieu-bredif,mathieu-bredif,2005-09-01,,true,/geovis/faces/bredif.jpg,true
 Raphaël,Bres,MEIG,Doctorant,PhD student,,,2021-09-01,,true,,false
 Bénédicte,Bucher,MEIG,Directrice de recherche IGN,Senior researcher,/benedicte-bucher,benedicte-bucher,1998,,true,/benedicte-bucher/img/Bucher.jpg,true
