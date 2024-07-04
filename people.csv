@@ -1,12 +1,13 @@
 firstname,lastname,team,statut,status,webpage,HAL,start_date,end_date,member,photo,perm
 Saif,Aati,ACTE,Doctorant,PhD student,/saif-aati,,2020-07-01,2023-03-31,false,,false
-Mohamed,Ali-Chebbi,ACTE,Doctorant,PhD student,/mohamed-alichebbi,,2020-07-01,,true,,false
 Nathalie,Abadie,STRUDEL,CR IGN,Researcher,/nathalie-abadie,nathalie-abadie,2005-10-01,,true,/nathalie-abadie/img/abadie.png,true
+Mohamed,Ali-Chebbi,ACTE,Doctorant,PhD student,/mohamed-alichebbi,,2020-07-01,,true,,false
 Guillaume,Astruc,STRUDEL,Doctorant,PhD student,,,2023-10-02,,true,,false
 Nicolas,Audebert,STRUDEL,CPJ,Researcher,https://nicolas.audebert.at,nicolas-audebert,2023-12-01,,true,,true
 Luc,Baudoux,STRUDEL,Doctorant,PhD student,/luc-baudoux,luc-baudoux,2019-10-01,2023-01-30,false,,false
 Yanis,Benidir,STRUDEL,Doctorant,PhD student,,,2023-09-01,,true,,false
 Wissal,Benjira,MEIG,Doctorante,PhD student,,,2023,,true,,false
+Justin,Berli,MEIG,Doctorant,PhD student,,,,,true,,false
 Charly,Bernard,STRUDEL,Ingénieur de Recherches,Engineer,/charly-bernard,charly-bernard,2019-10-01,,true,/lastig_data/img/charly.png,true
 Pierre,Biasutti,GEOVIS,Doctorant,PhD student,https://www.labri.fr/perso/pbiasutt/,pierre-biasutti,2016-09-01,2019-10-04,false,/geovis/faces/pierre-biasutti.jpg,false
 Camille,Billouard,ACTE,Doctorant,PhD student,,,2023-10-09,,true,,false
@@ -14,7 +15,8 @@ Sébastien,Biniek,MEIG,Doctorant,PhD student,/sebastien-biniek,,2016-12-01,2020-
 Emile,Blettery,ACTE,Post-doc,Post-doc,/emile-blettery,emile-blettery,2023-08-01,2025-03-01,true,,false
 Amine,Bourki,STRUDEL,Post-doc,Post-doc,https://github.com/abourki,,2018-10-01,2020-03-01,false,,false
 Mohamed,Boussaha,ACTE,Doctorant,PhD student,https://scholar.google.com/citations?user=D_ktS5EAAAAJ&hl=fr,mohamed-boussaha,2016-09,2020-01-01,false,,false
-Mickaël,Brasebin,STRUDEL,Chargé de Recherches,Researcher,https://mbrasebin.github.io,,2007-10-01,2018-12-18,false,https://mbrasebin.github.io/img/brasebin.jpg,true
+Amine,Boussik,ACTE,Post-doc,Post-doc,,,2024,,true,,false
+PMickaël,Brasebin,STRUDEL,Chargé de Recherches,Researcher,https://mbrasebin.github.io,,2007-10-01,2018-12-18,false,https://mbrasebin.github.io/img/brasebin.jpg,true
 Mathieu,Brédif,GEOVIS,CR IGN,Researcher,/mathieu-bredif,mathieu-bredif,2005-09-01,,true,/geovis/faces/bredif.jpg,true
 Raphaël,Bres,MEIG,Doctorant,PhD student,,,2021-09-01,,true,,false
 Bénédicte,Bucher,MEIG,Directrice de recherche IGN,Senior researcher,/benedicte-bucher,benedicte-bucher,1998,,true,/benedicte-bucher/img/Bucher.jpg,true
@@ -33,6 +35,7 @@ Azelle,Courtial,MEIG,Post-doc,Post-doc,/azelle-courtial,azelle-courtial,2019-10-
 Daniela,Craciun,STRUDEL,Post-doc,Post-doc,/daniela-craciun,daniela-craciun,2020-11-23,2022-10-09,false,,false
 Martin,Cubaud,STRUDEL,Doctorant,PhD Student,/martin-cubaud,,2022-09-15,,true,/martin-cubaud/img/m2.png,true
 Rémi,Cura,STRUDEL,Doctorant,PhD student,http://remi.cura.info/,,2013-04-01,2016-09-30,false,https://avatars2.githubusercontent.com/u/4725794?v=3&s=400,false
+John,Dawson,MEIG,Doctorant,PhD student,,,2014-04-01,,true,,false
 Arthur,Delorme,ACTE,Doctorant,PhD student,https://www.ipgp.fr/~delorme/,arthur-delorme,2022-09-01,,true,https://www.ipgp.fr/~delorme/images/photo.jpg,false
 Alexandre,Devaux,GEOVIS,Ingénieur,Research engineer,/adevaux_homepage,alexandredevaux,2008-07-01,2020-12-31,false,/geovis/faces/devaux.jpg,true
 Catherine,Dominguès,MEIG,CR IGN,Senior researcher,/cdomingues_homepage,catherine-domingues,2005-01-01,,true,/cdomingues_homepage/img/Domingues2020.png,true
@@ -61,9 +64,10 @@ Stéphane,Guinard,ACTE,Doctorant,PhD student,/sguinard_homepage,stephane-guinard
 Melvin,Hersent,GEOVIS,Doctorant,PhD student,/melvin-hersent,melvin-hersent,2024-01-01,2027-01-01,true,/geovis/faces/melvin-hersent.jpg,false
 Alexandre,Hippert-Ferrer,STRUDEL,Enseignant-Chercheur,Lecturer,https://ahippert.github.io/,alexandre-hippert-ferrer,2022-09-01,,true,,true
 Florence,Jacquinod,GEOVIS,Enseignant-Chercheur,Lecturer,/florence-jacquinod,florence-jacquinod,2019-01-01,,true,/florence-jacquinod/img/Florence.png,true
-Markie,Jiang,GEOVIS,Doctorante,PhD student,/markie-jiang,,2020-11-02,2023-11-01,true,/geovis/faces/jiang.png,false
+Markie,Jiang,GEOVIS,Doctorante,PhD student,/markie-jiang,,2020-11-02,2023-11-01,false,/geovis/faces/jiang.png,false
 Laurence,Jolivet,STRUDEL,CR IGN,Researcher,/laurence-jolivet,laurence-jolivet,2006-10-01,,true,/lastig_data/img/jolivet.jpg,true
 Ekaterina,Kalinicheva,STRUDEL,Post-doc,Post-doc,/ekaterina-kalinicheva,ekaterina-kalinicheva,2021-01-04,2023-01-03,false,,false
+Karim,Kassab,ACTE,Doctorant,PhD student,,,2023-01,2026-01,true,,true
 Colin,Kerouanton,STRUDEL,Doctorant,PhD student,https://www.researchgate.net/profile/Colin_Kerouanton,colin-kerouanton,2015-10-01,2020-01-31,false,https://i1.rgstatic.net/ii/profile.image/380038672338945-1467619688968_Q512/Colin_Kerouanton.jpg,false
 Guillaume,Koehl,STRUDEL,Ingénieur,Engineer,/guillaume-koehl,,2022-07-04,,true,,true
 Loic,Landrieu,STRUDEL,CR IGN,Researcher,https://loiclandrieu.com/,loic-landrieu,2015-10-01,2023-03-30,false,/lastig_data/img/landrieu.jpg,true
@@ -76,6 +80,7 @@ Bérénice,Le Mao,GEOVIS,Doctorante,PhD student,/Berenice-Le-Mao,,2022-09-01,,tr
 Maria-Jesus,Lobo,GEOVIS,CR MTE - Responsable de l'équipe GEOVIS,Researcher - head of GEOVIS team,/maria-jesus-lobo,maria-jesus-lobo,2019-12-01,,true,/geovis/faces/lobo.png,true
 Romain,Loiseau,STRUDEL,Doctorant,PhD student,/romain-loiseau,romain-loiseau,2020-09-01,2023-09-01,false,/romain-loiseau/img/loiseau.jpg,false
 Imran,Lokhat,GEOVIS,Développeur,IT scientist,/imran-lokhat,,2014-10-01,2021-03-15,false,,true
+Yiyan,Li,MEIG,Doctorant,PhD student,,,2023-12,2026-12,true,,true
 Ibrahim,Maidaneh Abdi,MEIG,Doctorant,PhD student,,,2019-10-01,2022-12-01,false,,false
 Clément,Mallet,STRUDEL,DR IGN,Senior researcher,/clement-mallet,clement-mallet,2005-10-01,,true,/clement-mallet/img/mallet.jpg,true
 Yanis,Marchand,ACTE,Doctorant,PhD student,/yanis-marchand,,2019-10-01,2022-11-28,false,/yanis-marchand/img/yanis.png,false
@@ -94,14 +99,14 @@ Evelyn,Paiz-Reyes,GEOVIS,Doctorante,PhD student,/evelyn-paiz,evelyn-paiz,2018-10
 Jean-Pierre,Papelard,ACTE,Ingénieur de Recherches,Research engineer,http://recherche.ign.fr/labos/matis/cv.php?nom=Papelard&prenom=Jean-Pierre,,,,true,,true
 Julien,Perret,STRUDEL,DR MTE - Responsable de l'équipe STRUDEL,Senior researcher - head of STRUDEL team,/julien-perret,julienperret,2007-10-01,,true,/julien-perret/img/julien.jpg,true
 Nathan,Piasco,ACTE,Doctorant,PhD student,/np_homepage,nathan-piasco,2016-10-01,2020-01-01,false,/np_homepage/img/piasco.jpg,false
-Marc,Pierrot-Deseilligny,ACTE,DR0 MTE,Senior researcher,https://micmac.ensg.eu/index.php/Marc_Pierrot-Deseilligny,marc-pierrot-deseilligny,,,true,https://micmac.ensg.eu/images/thumb/e/e7/MPD-Bambou.jpg/224px-MPD-Bambou.jpg,true
+Marc,Pierrot-Deseilligny,ACTE,DR0 MTE,Senior researcher,https://micmac.ensg.eu/index.php/Marc_Pierrot-Deseilligny,marc-pierrot-deseilligny,,,true,/lastig_data/img/marc.jpg,true
 Martyna,Poreba,ACTE,CR MTE,Researcher,/martyna-poreba,martyna-poreba,2016-12-01,2020-12-15,false,/lastig_data/img/poreba.jpg,true
 Tristan,Postadjian,STRUDEL,Doctorant,PhD student,,,2015-09-01,2019-06-01,false,https://www.umr-lastig.fr/strudel/assets/images/postadjian.jpg,false
 Quentin,Potié,MEIG,Doctorant,PhD student,,,2021-09,,true,,false
 Marc,Poupée,STRUDEL,Enseignant-Chercheur,Lecturer,,,2016-10-01,,true,/lastig_data/img/poupee.jpg,true
 Juste,Raimbault,STRUDEL,CR MTE,Research Fellow,/juste-raimbault,juste-raimbault,2022-01-01,,true,,true
-Helen,Rawsthorne,STRUDEL,Doctorant,PhD student,/helen-rawsthorne,helen-mair-rawsthorne,2020-11-03,,true,/helen-rawsthorne/img/HMR.jpeg,false
-Damien,Robert,STRUDEL,Doctorant,PhD student,/damien-robert,damien-robert-ai,2020-09-01,,true,/damien-robert/img/damien.png,false
+Helen,Rawsthorne,STRUDEL,Doctorant,PhD student,/helen-rawsthorne,helen-mair-rawsthorne,2020-11-03,,false,/helen-rawsthorne/img/HMR.jpeg,false
+Damien,Robert,STRUDEL,Doctorant,PhD student,/damien-robert,damien-robert-ai,2020-09-01,,false,/damien-robert/img/damien.png,false
 Pierre,Rolin,ACTE,Post-doc,Post-doc,,,2017,2020-01-01,false,,false
 Jean-Paul,Rudant,ACTE,Pr émérite,Professor emeritus,/Jean-Paul-Rudant,,,,true,/Jean-Paul-Rudant/img/Jean-Paul-Rudant.jpg,true
 Ewelina,Rupnik,ACTE,CR MTE,Researcher,/ewelina-rupnik,ewelina-rupnik,2017-11-01,,true,/ewelina-rupnik/img/er.png,true
@@ -113,7 +118,7 @@ Jean-Philippe,Souchon,ACTE,Ingénieur de Recherches,Research engineer,http://loe
 Christian,Staron,ACTE,Ingénieur,Engineer,/PageWebStaron,,2023-11-01,,true,/PageWebStaron/img/ChristianStaron.jpeg,false
 Raphael,Sulzer,ACTE,Doctorant,PhD student,https://raphaelsulzer.de/,raphael-sulzer,2018,2022-10-17,false,https://raphaelsulzer.de/img/me.png,false
 Hermann,Tagné,STRUDEL,Doctorant,PhD student,,hermann-tagne,2018,2023-09-29,false,,false
-Florent,Thébault,STRUDEL,Doctorant,PhD student,,,2022-05-01,,true,,false
+Florent,Thébault,STRUDEL,Doctorant,PhD student,,,2022-05-01,,false,,false
 Christian,Thom,ACTE,DR IGN,Senior researcher,/christian.thom,Christian-thom,,2022-09-01,false,/christian.thom/img/Ch_Thom.png,true
 Guillaume,Touya,MEIG,DR IGN,Senior researcher,/guillaume-touya,guillaume-touya,2004-09-10,,true,/geovis/faces/touya.jpg,true
 Quy Thy,Truong,MEIG,Doctorante,PhD student,/qttruong_homepage,quy-thy-truong,2016-11-02,2020-01-08,false,,false
@@ -122,6 +127,7 @@ Bruno,Vallet,ACTE,CR IGN - Responsable de l'équipe ACTE,Senior researcher - hea
 Marie-Dominique,Van Damme,MEIG,Chargée d'études et de recherche,Research engineer,/mdvandamme,marie-dominique-vandamme,2012-05,,true,/mdvandamme/img/mdvandamme.jpg,true
 Charles,Villard,ACTE,Doctorant,PhD student,/charles-villard,,2020-11-20,,true,,false
 Laura,Wenclik,GEOVIS,Ingénieure,Engineer,/laura-wenclik,laura-wenclik,2022-09-01,,true,/laura-wenclik/img/laura_wenclik.JPEG,true
+Laura,Willot,ACTE,Doctorante,PhD student,,,,,true,,false
 Teng,Wu,ACTE,Chercheur,Researcher,https://whuwuteng.github.io,,2023-11-11,,true,https://whuwuteng.github.io/images/tengwu.png,true
 Chahine-Nicolas,Zede,ACTE,Doctorant,PhD student,/Chahine-Nicolas-Zede,Chahine-Nicolas,2023-01-03,2026-01-02,true,,false
 Lulin,Zhang,ACTE,Post-doc,Post-doc,/Lulin-Zhang,,,,false,,false
