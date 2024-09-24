@@ -41,6 +41,7 @@
 	const root = 'https://www.umr-lastig.fr';
 	const default_img = '/lastig_data/img/abstract-user-icon.svg';
 	const YYYY = (new Date()).getFullYear();
+	const removeAccents = str => str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 	
 	function init(people) {
 		// create an array with nodes
@@ -52,28 +53,28 @@
 		nodes.add({id:'GEOVIS', label:'GEOVIS', group:'team', image: root+'/img/icons/logo_geovis_1280.png', href: root+'/geovis/'});
 		nodes.add({id:'STRUDEL', label:'STRUDEL', group:'team', image: root+'/img/icons/logo_strudel_1280.png', href: root+'/strudel/'});
 		nodes.add({id:'MEIG', label:'MEIG', group:'team', image: root+'/img/icons/logo_meig_1280.png', href: root+'/meig/'});
-		nodes.add({id:'?'});
 
+                // "firstname","alt_firstname","lastname","team","statut","status","webpage","HAL","start_date","end_date","member","photo","perm"
 		for(const line of people.split('\n')) {
-			const cols = line.trim().split(',');
+			const cols = line.trim().split(',').map(s => s.startsWith('"') ? s.substr(1,s.length-2) : s);
 			if(cols.length < 3 || cols[0]=='firstname') continue;
 			const firstname = cols[0];
-			const lastname = cols[1];
-			let team = cols[2];
-			if (team == 'SCALES' || team == '') team = '?';
-			const statut = cols[3];
-			const status = cols[4];
-			const href = (cols[5]===undefined || cols[5].startsWith('http'))? cols[5] : (root+cols[5]);
-			const HAL = cols[6];
-			const start_date = cols[7]!='' ? new Date(cols[7]) : undefined;
-			const end_date = cols[8]!='' ? new Date(cols[8]) : undefined;
-			const member = cols[9] == 'true';	
+			const lastname = cols[2];
+			const team = cols[3];
+			const statut = cols[5];
+			const status = cols[6];
+			const href = (cols[6]===undefined || cols[6].startsWith('http'))? cols[6] : (root+cols[6]);
+			const HAL = cols[7];
+			const start_date = cols[8]!='' ? new Date(cols[8]) : undefined;
+			const end_date = cols[9]!='' ? new Date(cols[9]) : undefined;
+			const member = cols[10] == 'true';	
 			cols[10] = cols[10] || default_img;
-			const perm = cols[11] == 'true';
+			const perm = cols[12] == 'true';
 			const label = firstname+'\n'+lastname;
-			const id = HAL || (firstname+'-'+lastname);
-			const photo = id+".jpg";
+			const id = (HAL || removeAccents(firstname+'-'+lastname).replace(' ','-')).toLowerCase();
+			const photo = "/user/"+id+".jpg";
 			const node = { id: id, label:label, group:'people', image: photo, opacity:member?1:0.2, href:href, perm: perm, member: member, start: start_date, end: end_date};
+			console.log(node);
 			nodes.add(node);
 			edges.add({ from: id, to: team});
 		}
@@ -156,7 +157,7 @@
 		network.setData(data);
       }
             
-      fetch(root+"/lastig_data/people.csv").then(response => response.text()).then(init);
+        fetch("/people.csv").then(response => response.text()).then(init);
       
     </script>
   </body>
