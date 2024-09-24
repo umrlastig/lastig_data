@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vis Network | Basic usage</title>
+
+    <script type="text/javascript" src="js/vis-network.min.js"></script>
+    <link rel="stylesheet" href="css/rSlider.min.css">
+    <script src="js/rSlider.min.js"></script>
+
+    <style type="text/css">
+      #mynetwork {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+      #filter {
+        position: absolute;
+        bottom: 0;
+        left: 5%;
+        width: 90%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="filter">
+	<label>Double-click on teams or people to check their websites. Filters: </label>
+	<input type="checkbox" name="checkFilter" id="team" checked=""><label>Teams</label>
+	<input type="checkbox" name="checkFilter" id="perm" checked=""><label>Permanent</label>
+	<input type="checkbox" name="checkFilter" id="temp" checked=""><label>Temporary</label>
+	<input type="checkbox" name="checkFilter" id="member"><label>Member-only</label>
+	<input type="text" id="dateSlider" />
+    </div>
+
+    <div id="mynetwork"></div>
+
+    <script type="text/javascript">
+	const root = 'https://www.umr-lastig.fr';
+	const default_img = '/lastig_data/img/abstract-user-icon.svg';
+	const YYYY = (new Date()).getFullYear();
+	
+	function init(people) {
+		// create an array with nodes
+		var nodes = new vis.DataSet([]);
+		var edges = new vis.DataSet([]);
+
+		nodes.add({id:'LASTIG', shape:'image', size:50, image: root+'/img/lastig_400.png', href: root});
+		nodes.add({id:'ACTE', label:'ACTE', group:'team', image: root+'/img/icons/logo_acte_1280.png', href: root+'/acte/'});
+		nodes.add({id:'GEOVIS', label:'GEOVIS', group:'team', image: root+'/img/icons/logo_geovis_1280.png', href: root+'/geovis/'});
+		nodes.add({id:'STRUDEL', label:'STRUDEL', group:'team', image: root+'/img/icons/logo_strudel_1280.png', href: root+'/strudel/'});
+		nodes.add({id:'MEIG', label:'MEIG', group:'team', image: root+'/img/icons/logo_meig_1280.png', href: root+'/meig/'});
+		nodes.add({id:'?'});
+
+		for(const line of people.split('\n')) {
+			const cols = line.trim().split(',');
+			if(cols.length < 3 || cols[0]=='firstname') continue;
+			const firstname = cols[0];
+			const lastname = cols[1];
+			let team = cols[2];
+			if (team == 'SCALES' || team == '') team = '?';
+			const statut = cols[3];
+			const status = cols[4];
+			const href = (cols[5]===undefined || cols[5].startsWith('http'))? cols[5] : (root+cols[5]);
+			const HAL = cols[6];
+			const start_date = cols[7]!='' ? new Date(cols[7]) : undefined;
+			const end_date = cols[8]!='' ? new Date(cols[8]) : undefined;
+			const member = cols[9] == 'true';	
+			cols[10] = cols[10] || default_img;
+			const perm = cols[11] == 'true';
+			const label = firstname+'\n'+lastname;
+			const id = HAL || (firstname+'-'+lastname);
+			const photo = id+".jpg";
+			const node = { id: id, label:label, group:'people', image: photo, opacity:member?1:0.2, href:href, perm: perm, member: member, start: start_date, end: end_date};
+			nodes.add(node);
+			edges.add({ from: id, to: team});
+		}
+
+		edges.add({ from: 'clement-mallet', to: 'LASTIG'});
+		edges.add({ from: 'ana-maria-olteanu-raimond', to: 'LASTIG'});
+
+		edges.add({ from: 'ACTE', to: 'LASTIG'});
+		edges.add({ from: 'MEIG', to: 'LASTIG'});
+		edges.add({ from: 'GEOVIS', to: 'LASTIG'});
+		edges.add({ from: 'STRUDEL', to: 'LASTIG'});
+
+		// create a network
+		const nodeFilterValues = {};
+
+		var mySlider = new rSlider({
+			target: '#dateSlider',
+			values: {min: 1995, max: YYYY+5},
+			step: 1,
+			range: true,
+			tooltip: true,
+			scale: true,
+			labels: false,
+			set: [YYYY, YYYY],
+			onChange: function(values) { nodesView.refresh(); }
+		});
+		nodeFilterValues.start = mySlider.values.start;
+		nodeFilterValues.end   = mySlider.values.end;
+
+		const checkFilters = document.getElementsByName("checkFilter");
+
+		const nodesFilter = (node) => {
+			if (node.group != "people") return nodeFilterValues.team;
+			const end   = node.end   === undefined || mySlider.conf.values[mySlider.values.start] <= node.end  .getFullYear();
+			const start = node.start === undefined || mySlider.conf.values[mySlider.values.end]   >= node.start.getFullYear();
+			return (start && end) && 
+			(node.perm === undefined || (node.perm ? nodeFilterValues.perm : nodeFilterValues.temp)) &&
+			(node.member || !nodeFilterValues.member);
+		};
+		const edgesFilter = (edge) => {
+			return true;
+		};
+		const nodesView = new vis.DataView(nodes, { filter: nodesFilter });
+		const edgesView = new vis.DataView(edges, { filter: edgesFilter });
+
+		checkFilters.forEach((filter) => {
+			nodeFilterValues[filter.id] = filter.checked;
+			filter.addEventListener("change", (e) => {
+				const {id, checked} = e.target;
+				nodeFilterValues[id] = checked;
+				nodesView.refresh();
+			});
+		});
+
+		var container = document.getElementById("mynetwork");
+		var data = {
+			nodes: nodesView,
+			edges: edgesView,
+		};
+				
+		var options = {
+			groups: {
+				team  : {shape:'circularImage', size:60},
+				people: {shape:'circularImage', size:25}
+			}
+		};
+		var network = new vis.Network(container, {}, options);
+
+		network.on( 'doubleClick', function(properties) {
+			const nodeId = network.getNodeAt({x:properties.event.srcEvent.offsetX, y:properties.event.srcEvent.offsetY});
+			const node = nodeId && nodes.get(nodeId);
+			if (node) window.location=node.href;
+		});
+		network.on( 'click', function(properties) {
+			const nodeId = network.getNodeAt({x:properties.event.srcEvent.offsetX, y:properties.event.srcEvent.offsetY});
+			const node = nodeId && nodes.get(nodeId);
+			if (node) console.log(node);
+		});
+		nodesView.refresh();
+		network.setData(data);
+      }
+            
+      fetch(root+"/lastig_data/people.csv").then(response => response.text()).then(init);
+      
+    </script>
+  </body>
+</html>
+
