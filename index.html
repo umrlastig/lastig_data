@@ -72,7 +72,7 @@
 			const perm = cols[12] == 'true';
 			const label = firstname+'\n'+lastname;
 			const id = (HAL || removeAccents(firstname+'-'+lastname).replace(' ','-')).toLowerCase();
-			const photo = "/user/"+id+".jpg";
+			const photo = "user/"+id+".jpg";
 			const node = { id: id, label:label, group:'people', image: photo, opacity:member?1:0.2, href:href, perm: perm, member: member, start: start_date, end: end_date};
 			console.log(node);
 			nodes.add(node);
