@@ -14,4 +14,4 @@
 "photogrammetric-camera","photogrammetric-camera","https://github.com/umrlastig/photogrammetric-camera",,2018,"geovis",,,
 "netcdf-three","netcdf-three","https://github.com/umrlastig/netcdf-three",,2021,"geovis",,,
 "geopensim","geopensim","https://github.com/IGNF/geoxygene-geopensim","hal-04650393",2011,"strudel","swh:1:dir:b990335cfe36683e3dd2b62f486b655d6c0fc0c3;origin=https://hal.archives-ouvertes.fr/hal-04650393;visit=swh:1:snp:4ccd046e02adbf8887ed4934cca9e3aca43075e7;anchor=swh:1:rel:3b6671e06a8aab98a47be693144eee5d6243d448;path=/",,
-"Sparkling WASURE : Out-of-core watertight surface reconstruction from LiDAR point cloud with Apache Spark" : ","Sparkling Wasure","https://github.com/lcaraffa/sparkling-wasure",,2025,"acte",,,"https://www.umr-lastig.fr/lastig_data/img/header.jpeg"
+"Sparkling WASURE : Out-of-core watertight surface reconstruction from LiDAR point cloud with Apache Spark" : ","Sparkling Wasure","https://github.com/lcaraffa/sparkling-wasure",,2025,"acte",,,https://www.umr-lastig.fr/lastig_data/img/header.jpeg
