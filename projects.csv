@@ -1,0 +1,57 @@
+﻿"Funding Origin","Contract Name","Short Name","Contract Type","Project Team Leader","Project Leader","Teams","Dates","Theme","Website"
+"European","Volta","Volta","H2020","Bruno Vallet","N","ACTE, MEIG, GEOVIS, STRUDEL","2017-2021","Urban","https://volta.fbk.eu/"
+"European","LANDSENSE","LANDSENSE","H2020","Ana-Maria Raimond","N","MEIG, STRUDEL","2016-2020","Climate","https://landsense.eu/"
+"European","URCLIM","URCLIM","ERA4CS","Bénédicte Bucher","N","MEIG, GEOVIS, STRUDEL","2017-2020","Climate","https://jpi-climate.eu/project/urclim/"
+"European","VSCT","VSCT","Horizon Europe","Valerie Gouet-Brunet","N","ACTE, MEIG","2020-2021","Tourism","https://ec.europa.eu/regional_policy/policy/communities-and-networks/s3-community-of-practice/virtual_tourism_en"
+"European","Time Machine","Time Machine","H2020","Valerie Gouet-Brunet","N","ACTE, MEIG","2019-2020","Digital Humanities","https://www.timemachine.eu/"
+"European","THINGS2DO","THINGS2DO","ENIAC","Valerie Gouet-Brunet","N","ACTE","2014-2018","Security","https://cordis.europa.eu/project/id/621221"
+"National","MAESTRIA","MAESTRIA","ANR","Clément Mallet","Y","STRUDEL","2019-2023","LULC","https://maestriaproject.github.io/"
+"National","Reconstitution de la généalogie des bâtiments et des parcelles à partir de cadastres anciens","Cadastre","AID","Nathalie Abadie","Y","STRUDEL","2022-2025","Digital Humanities",
+"National","READY3D","READY3D","ANR","Loic Landrieu","Y","STRUDEL","2020-2024","Security","https://anr.fr/Projet-ANR-19-CE23-0007"
+"National","SoDUCo","SoDUCo","ANR","Julien Perret","Y","STRUDEL","2019-2023","Digital Humanities","https://soduco.geohistoricaldata.org"
+"National","ALEGORIA","ALEGORIA","ANR","Valerie Gouet-Brunet","Y","ACTE, STRUDEL, GEOVIS","2018-2021","Digital Humanities","http://alegoria.ign.fr/"
+"National","BIOM","BIOM","ANR","Bruno Vallet","Y","ACTE","2018-2022","Urban","https://www.umr-lastig.fr/biom/"
+"National","pLaTINUM","pLaTINUM","ANR","Valerie Gouet-Brunet","N","ACTE","2015-2019","Security","https://team.inria.fr/rainbow/fr/research/research-project/platinum/"
+"National","Reconnnaissance de lieux à partir de points 3D","Reconnnaissance","AID","Valerie Gouet-Brunet","Y","ACTE","2023-2025","Security",
+"National","Description, appariement et indexation de contenus image multi-date et multi-source","Description","AID","Valerie Gouet-Brunet","Y","ACTE","2018-2021","Security",
+"National","ORACLES","ORACLES","ANR","Sidonie Christophe","N","GEOVIS","2022-2025","Climate","https://oracles.brgm.fr/fr"
+"National","SUBDENSE","SUBDENSE","ANR","Bénédicte Bucher","Y","MEIG, STRUDEL","2023-2025","Urban","https://anr.fr/Project-ANR-22-ORAR-0004"
+"National","DISRUPT","DISRUPT","ANR","Marc Pierrot Deseilligny","N","ACTE","2019-2022","Security","https://anr.fr/Projet-ANR-18-CE31-0012"
+"National","Topographie en science de la terre","Topographie","TOSCA","Marc Pierrot Deseilligny","N","ACTE","2012-2024","Security",
+"National","AIRDESCARTES","AIRDESCARTES","iSite","Mohamed Chachoua","Y","MEIG","2020-2024","Health","https://www.eivp-paris.fr/air-descartes"
+"National","POLLUSCOPE","POLLUSCOPE","ANR","Mohamed Chachoua","N","MEIG","2016-2022","Health","https://www.eivp-paris.fr/polluscope"
+"National","ECOCIM","ECOCIM","ANR","Jacquinod Florence","N","GEOVIS","2023-2026","Urban","https://anr.fr/Projet-ANR-22-CE04-0019"
+"National","HIATUS","HIATUS","ANR","Arnaud Le Bris","Y","STRUDEL, ACTE, GEOVIS","2019-2024","LULC","https://anr-hiatus.github.io/"
+"National","OSO","OSO","TOSCA","Arnaud Le Bris","N","STRUDEL","2018-2019","LULC",
+"National","CES Artificialisation/urbanisation","CES","TOSCA","Arnaud Le Bris","N","STRUDEL","2018-2019","LULC",
+"National","PARCELLE","PARCELLE","TOSCA","Arnaud Le Bris","N","STRUDEL","2019-2023","LULC",
+"National","AIMCEE","AIMCEE","TOSCA","Arnaud Le Bris","N","STRUDEL","2020-2022","LULC",
+"National","CHOUCAS","CHOUCAS","ANR","Ana-Maria Raimond","Y","ACTE","2017-2022","Security","https://choucas.ign.fr/"
+"National","ACTIVmap","ACTIVmap","ANR","Guillaume Touya","N","MEIG","2019-2024","Tourism","https://activmap.limos.fr"
+"National","GENESE","GENESE","Convention de soutien de l'Etat à des actions de recherche et d'innovation","Bruno Vallet","Y","ACTE","2023-2026","Tourism",
+"National","Glob-Taiwan","Glob-Taiwan","TOSCA","Bénédicte Fruneau","Y","ACTE","2016-2019","Security",
+"National","IntForOut*","IntForOut*","ANR","Ana-Maria RAIMOND","Y","MEIG","2023-2027","Tourism","https://anr.fr/Project-ANR-23-CE55-0003"
+"National","Active-SW","Active-SW","ANR","Bénédicte Fruneau","N","ACTE","2023-2026","Security","https://anr.fr/Projet-ANR-21-CE49-0021"
+"PIA","Mob Sci-Dat Factory","Mob Sci-Dat Factory","PEPR","Arnaud Le Guilcher","N","MEIG, STRUDEL, GEOVIS","2023-2027","Tourism","https://anr.fr/ProjetIA-23-PEMO-0004"
+"PIA","ai4geo","ai4geo","PEPS","Bruno Vallet","N","ACTE, STRUDEL","2019-2022","Urban","https://www.ai4geo.eu/"
+"PIA","PARVIS","PARVIS","iSite","Catherine Dominguès","N","MEIG","2019-2022","Urban",
+"PIA","MATRICIEL","MATRICIEL","PEPS","Catherine Dominguès","Y","MEIG, STRUDEL","2016-2018","Digital Humanities",
+"PIA","Archival City","Archival City","iSite","Valerie Gouet-Brunet","N","ACTE","2019-2023","Digital Humanities",
+"PIA","CityFab","CityFab","AAP Excellences","Bénédicte Bucher, Florence Jacquinod","N","GEOVIS, MEIG","2023-2027","Urban",
+"PIA","E3S","E3S","iSite","Florence Jacquinod","N","GEOVIS","2020-2023","Urban",
+"PIA","Campus numérique de la Ville Durable","Campus","TIGA","Florence Jacquinod","N","GEOVIS","2020-2030","Urban",
+"PIA","Urban Vision","Urban Vision","iSite","Mathieu Brédif","N","ACTE, GEOVIS","2020-2022","Urban",
+"Partnership","Création de graphes de connaissances géospatiaux à partir de sources hétérogènes","Graphes","Contrat de recherche Shom-IGN","Nathalie Abadie","Y","STRUDEL","2020-2023","Security",
+"Partnership","Représentations 3D implicite par méthodes neuronales","Représentations","Contrat Critéo","Valerie Gouet-Brunet","N","ACTE","2023-2025",,
+"Partnership","Structuration de fonds iconographiques patrimoniaux par exploitation d'un référentiel géographique 2D et 3D","Structuration","CIFRE Ville de Paris","Valerie Gouet-Brunet","Y","ACTE","2020-2023",,
+"Partnership","Caméra intelligente embarquée pour le suivi d'objet sur plateforme mobile ","Caméra","Contrat CEA","Valerie Gouet-Brunet","N","ACTE","2016-2020",,
+"Partnership","Métrologie de digue par drone","Métrologie","contrat  thèse CNR","Marc Pierrot Deseilligny","Y","ACTE","2016-2019",,
+"Partnership","cifre thales","CIFRE","cifre thales","Marc Pierrot Deseilligny","Y","ACTE","2021-2024",,
+"Partnership","MicMac pour l'alignement des accélérateurs","MicMac ","Contrat CERN","Marc Pierrot Deseilligny","Y","ACTE","2023-2026",,
+"Territorial Collectivity","MOOC FURET ACU : valorisation, des résultas du projet ANR/FURET","FURET","Contrat valorisation - EIVP-Ville de Paris, MEL, FNTP, Comue Paris-Est, AITF, CNFPT, Syntec-Ingénieurie","Mohamed Chachoua","Y","MEIG","2019-2020",,
+"Foundation","ClaS-Ter","ClaS-Ter","Fondation des Sciences du patrimoine","Valerie Gouet-Brunet","N","ACTE","2021-2024","Digital Humanities",
+"National","AGAPE","AGAPE","ANR","Valérie Gouet-Brunet","Y","ACTE,STRUDEL","2024-2028","Digital Humanities","https://agape-anr.github.io"
+"National","OGRE","OGRE","ANR","Nicolas Audebert","Y","STRUDEL","2025-2028","LULC","https://geo-ogre.github.io"
+"National","GlacioSim","GlacioSim","ANR","Alexandre Hippert-Ferrer","Y","STRUDEL","2025-2029","Climate",
+"National","SOTIQUE","SOTIQUE","iSite","Laurence Jolivet","N","STRUDEL","2024-2026","Health",
+"National","JUNN","JUNN","Banque des territories","Mathieu Brédif","N","ACTE,GEOVIS,MEIG,STRUDEL","2026-2029","Urban","https://junn-france.fr/"
