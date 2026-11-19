@@ -9,7 +9,8 @@
 "[Code] Chaine de traitement des annuaires du projet SoDuCo","Directory-annotator-back","https://github.com/soduco/directory-annotator-back","Hal-04478577",2024,"strudel",,,"https://www.umr-lastig.fr/lastig_data/img/output-439.jpg"
 "[Code] Reconnaissance d'images diachroniques à l'aide d'un réseau siamois","siamese_net","https://github.com/margokhokhlova/siamese_net","hal-04421148",2020,"strudel,acte",,,"https://www.umr-lastig.fr/lastig_data/img/data.png"
 "[Code] Construction d'un graphe géohistorique à partir des annuaires du commerce parisien du 19e siècle : application aux photographes","ic_2023_photographes_parisiens","https://github.com/soduco/ic_2023_photographes_parisiens","hal-04390522",2023,"strudel",,,"https://www.umr-lastig.fr/lastig_data/img/ic_2023_photographes_parisiens_pipeline.png"
-"micmac","micmac","https://github.com/micmacIGN/micmac",,2016,"acte",,,
+"MicMac V1","MicMac V1","https://github.com/micmacIGN/micmac",,,"acte",,,
+"MicMac V2","MicMac V2","https://github.com/micmac-V2/MMVII/",,,"acte",,,"https://www.umr-lastig.fr/lastig_data/img/logo_mmvii.png"
 "Itowns","Itowns","https://github.com/iTowns/itowns",,2017,"geovis",,,
 "photogrammetric-camera","photogrammetric-camera","https://github.com/umrlastig/photogrammetric-camera",,2018,"geovis",,,
 "netcdf-three","netcdf-three","https://github.com/umrlastig/netcdf-three",,2021,"geovis",,,
